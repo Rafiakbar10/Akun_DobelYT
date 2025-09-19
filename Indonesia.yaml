@@ -1,0 +1,30 @@
+proxies:
+  - name: INDONESIA 
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-nusa.kedaivpn.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-nusa.kedaivpn.cloud
+    udp: true
+  - name: INDONESIA 2
+    server: nontontv.vidio.com
+    port: 443
+    type: trojan
+    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
+    skip-cert-verify: true
+    sni: kdi.liteon.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: kdi.liteon.biz.id
+    udp: true
