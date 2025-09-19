@@ -1,5 +1,5 @@
 proxies:
-  - name: INDONESIA 
+  - name: INDONESIA WILDC
     server: support.zoom.us
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: support.zoom.us.id-nusa.kedaivpn.cloud
     udp: true
-  - name: INDONESIA 
+  - name: INDONESIA QUIZ
     server: quiz.int.vidio.com
     port: 443
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: INDONESIA 2
+  - name: INDONESIA 81
     server: 104.17.3.81
     port: 443
     type: trojan
