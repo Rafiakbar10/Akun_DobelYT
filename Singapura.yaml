@@ -1,0 +1,27 @@
+proxies:
+  - name: SINGAPORE 1
+    server: hurricane.lipcon.com
+    port: 443
+    type: trojan
+    password: vvip-Premium2
+    skip-cert-verify: true
+    sni: sg3tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3tr.jagoanvip.xyz
+    udp: true
+  - name: SINGAPORE 2
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: vvip-Premium2
+    skip-cert-verify: true
+    sni: sg3tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3tr.jagoanvip.xyz
+    udp: true
