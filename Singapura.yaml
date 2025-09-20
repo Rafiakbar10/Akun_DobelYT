@@ -24,4 +24,4 @@ proxies:
       path: /trojan
       headers:
         Host: support.zoom.us.sg3tr.jagoanvip.xyz
-    udp: true
+    udp: false
