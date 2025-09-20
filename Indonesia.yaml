@@ -16,7 +16,7 @@ proxies:
         Host: support.zoom.us.id-nusa.kedaivpn.cloud
     udp: true
   - name: INDONESIA QUIZ
-    server: quiz.int.vidio.com
+    server: support.zoom.us
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -24,12 +24,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-nusa.kedaivpn.cloud
+    servername: support.zoom.us.id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id-nusa.kedaivpn.cloud
+        Host: support.zoom.us.id-nusa.kedaivpn.cloud
     udp: true
   - name: INDONESIA 81
     server: 104.17.3.81
