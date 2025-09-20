@@ -21,18 +21,18 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: SG WS bot
-    server: live.iflix.com
+  - name: SG WS sky
+    server: Skype.com
     port: 443
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: live.iflix.com.sg3tr.jagoanvip.xyz
+    sni: sg3tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: live.iflix.com.us.sg3tr.jagoanvip.xyz
+        Host: sg3tr.jagoanvip.xyz
     udp: true
   - name: SG WS WILD
     server: support.zoom.us
@@ -64,7 +64,7 @@ proxies:
         Host: bot.zoom.us.id-nusa.kedaivpn.cloud
     udp: true
   - name: KEDAI WS IP 81
-    server: 104.17.3.81
+    server: Talkgadget.google.com
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -79,8 +79,8 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI WS if
-    server: live.iflix.com
+  - name: KEDAI WS sky
+    server: Skype.com
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
