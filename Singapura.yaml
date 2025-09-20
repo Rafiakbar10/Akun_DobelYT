@@ -1,27 +1,27 @@
 proxies:
-  - name: SINGAPORE Udp
+  - name: SG WS Udp
     server: support.zoom.us
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: support.zoom.us.sg3tr.jagoanvip.xyz
+    sni: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.sg3tr.jagoanvip.xyz
+        Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SINGAPORE Xudp
+  - name: SG WS Xudp
     server: support.zoom.us
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: support.zoom.us.sg3tr.jagoanvip.xyz
+    sni: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.sg3tr.jagoanvip.xyz
+        Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: false
