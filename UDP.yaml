@@ -21,18 +21,18 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: SG WS sky
+  - name: SG WS sky wild
     server: Skype.com
     port: 443
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: Skype.com.sg3tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: Skype.com.sg3tr.jagoanvip.xyz
     udp: true
   - name: SG WS WILD
     server: support.zoom.us
@@ -56,14 +56,14 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bot.zoom.us.id-nusa.kedaivpn.cloud
+    servername: id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: bot.zoom.us.id-nusa.kedaivpn.cloud
+        Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI WS IP 81
+  - name: KEDAI WS Tal wild
     server: Talkgadget.google.com
     port: 443
     type: vmess
@@ -72,12 +72,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-nusa.kedaivpn.cloud
+    servername: Talkgadget.google.com.id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id-nusa.kedaivpn.cloud
+        Host: Talkgadget.google.com.id-nusa.kedaivpn.cloud
     udp: true
   - name: KEDAI WS sky
     server: Skype.com
