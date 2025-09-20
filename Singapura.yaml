@@ -1,6 +1,6 @@
 proxies:
-  - name: SINGAPORE 21
-    server: 141.193.213.21
+  - name: SINGAPORE sup
+    server: support.zoom.us
     port: 443
     type: trojan
     password: vvip-Premium2
@@ -12,18 +12,18 @@ proxies:
       headers:
         Host: sg3tr.jagoanvip.xyz
     udp: true
-  - name: SINGAPORE 20
-    server: 141.193.213.20
+  - name: SINGAPORE Wilcd
+    server: support.zoom.us
     port: 443
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: support.zoom.us.sg3tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: support.zoom.us.sg3tr.jagoanvip.xyz
     udp: true
   - name: SINGAPORE 81
     server: 104.17.3.81
