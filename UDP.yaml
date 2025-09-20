@@ -1,51 +1,51 @@
 proxies:
-  - name: SG GRPC Udp
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: support.zoom.us.sg3tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: SG GRPC Xudp
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Premium2
-    skip-cert-verify: true
-    sni: support.zoom.us.sg3tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: false
   - name: SG WS Udp
     server: support.zoom.us
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: support.zoom.us.sg3tr.jagoanvip.xyz
+    sni: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.sg3tr.jagoanvip.xyz
+        Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
   - name: SG WS Xudp
     server: support.zoom.us
     port: 443
     type: trojan
-    password: vvip-Premium2
+    password: rafiakbar10
     skip-cert-verify: true
-    sni: support.zoom.us.sg3tr.jagoanvip.xyz
+    sni: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.sg3tr.jagoanvip.xyz
+        Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: false
+  - name: SG GRPC Udp
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: support.zoom.us.sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: SG GRPC Xudp
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: support.zoom.us.sg-gsl002.arenato.rest
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
     udp: false
   - name: KEDAI WS Udp
     server: support.zoom.us
