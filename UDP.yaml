@@ -22,17 +22,17 @@ proxies:
       grpc-service-name: trojangrpc
     udp: true
   - name: SG WS SUP 
-    server: support.zoom.us
+    server: bot.zoom.us
     port: 443
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: bot.zoom.us.sg3tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: bot.zoom.us.sg3tr.jagoanvip.xyz
     udp: true
   - name: SG WS WILD
     server: support.zoom.us
@@ -217,8 +217,8 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: KEDAI GRPC IP 20
-    server: 141.193.213.20
+  - name: KEDAI GRPC BOt
+    server: bot.zoom.us
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -226,7 +226,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-nusa.kedaivpn.cloud
+    servername: bot.zoom.us.id-nusa.kedaivpn.cloud
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
