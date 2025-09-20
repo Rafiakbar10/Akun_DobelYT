@@ -22,17 +22,17 @@ proxies:
       grpc-service-name: trojangrpc
     udp: true
   - name: SG WS bot
-    server: bot.zoom.us
+    server: live.iflix.com
     port: 443
     type: trojan
     password: vvip-Premium2
     skip-cert-verify: true
-    sni: bot.zoom.us.sg3tr.jagoanvip.xyz
+    sni: live.iflix.com.sg3tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: bot.zoom.us.sg3tr.jagoanvip.xyz
+        Host: live.iflix.com.us.sg3tr.jagoanvip.xyz
     udp: true
   - name: SG WS WILD
     server: support.zoom.us
@@ -79,8 +79,8 @@ proxies:
       headers:
         Host: id-nusa.kedaivpn.cloud
     udp: true
-  - name: KEDAI WS Bot
-    server: bot.zoom.us
+  - name: KEDAI WS if
+    server: live.iflix.com
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -217,8 +217,8 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: KEDAI GRPC BOt
-    server: bot.zoom.us
+  - name: KEDAI GRPC if wilcd
+    server: live.iflix.com
     port: 443
     type: vmess
     uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
@@ -226,7 +226,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bot.zoom.us.id-nusa.kedaivpn.cloud
+    servername: live.iflix.com.id-nusa.kedaivpn.cloud
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
