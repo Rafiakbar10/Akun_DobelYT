@@ -27,4 +27,4 @@ proxies:
       path: /trojan-ws
       headers:
         Host: support.zoom.us.kdi.liteon.biz.id
-    udp: false
+    udp: true
