@@ -88,12 +88,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: support.zoom.us.id-nusa.kedaivpn.cloud
+    servername: id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: support.zoom.us.id-nusa.kedaivpn.cloud
+        Host: id-nusa.kedaivpn.cloud
     udp: true
   - name: KEDAI HTTP Xudp
     server: support.zoom.us
@@ -104,12 +104,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: support.zoom.us.id-nusa.kedaivpn.cloud
+    servername: id-nusa.kedaivpn.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: support.zoom.us.id-nusa.kedaivpn.cloud
+        Host: id-nusa.kedaivpn.cloud
     udp: false
   - name: KEDAI GRPC Udp
     server: support.zoom.us
