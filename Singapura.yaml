@@ -1,5 +1,5 @@
 proxies:
-  - name: SG WS
+  - name: SG WS 1
     server: support.zoom.us
     port: 443
     type: trojan
@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SG WS
+  - name: SG WS 2
     server: support.zoom.us
     port: 443
     type: trojan
