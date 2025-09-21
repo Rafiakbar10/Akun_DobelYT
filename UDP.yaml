@@ -187,7 +187,7 @@ proxies:
       headers:
         Host: support.zoom.us.kdi.liteon.biz.id
     udp: false
-  - name: ROBOT WS Udp
+  - name: ROBOT WS IP
     server: 104.17.3.81
     port: 443
     type: trojan
