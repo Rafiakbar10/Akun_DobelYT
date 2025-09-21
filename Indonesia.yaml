@@ -1,5 +1,5 @@
 proxies:
-  - name: KEDAI Udp
+  - name: KEDAI WS
     server: support.zoom.us
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: support.zoom.us.id-nusa.kedaivpn.cloud
     udp: true
-  - name: ROBOT Xudp
+  - name: ROBOT WS
     server: support.zoom.us
     port: 443
     type: trojan
