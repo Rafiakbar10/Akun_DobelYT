@@ -31,7 +31,7 @@ proxies:
     type: trojan
     password: rafiakbar10
     skip-cert-verify: true
-    sni: support.zoom.us.sg-gsl002.arenato.rest
+    sni: support.zoom.us.sg-gsl002.gosni.web.id
     network: grpc
     grpc-opts:
       grpc-service-name: trojan-grpc
@@ -42,7 +42,7 @@ proxies:
     type: trojan
     password: rafiakbar10
     skip-cert-verify: true
-    sni: support.zoom.us.sg-gsl002.arenato.rest
+    sni: support.zoom.us.sg-gsl002.gosni.web.id
     network: grpc
     grpc-opts:
       grpc-service-name: trojan-grpc
