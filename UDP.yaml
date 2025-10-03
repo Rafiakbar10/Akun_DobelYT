@@ -25,111 +25,35 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: false
-  - name: KEDAI WS Udp
+  - name: IKD UDP
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
+    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.id-nusa.kedaivpn.cloud
+    servername: support.zoom.us.id-ikd001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /xrayvmess
       headers:
-        Host: support.zoom.us.id-nusa.kedaivpn.cloud
+        Host: support.zoom.us.id-ikd001.kegiatanja.my.id
     udp: true
-  - name: KEDAI WS Xudp
+  - name: IKD XUDP
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
+    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.id-nusa.kedaivpn.cloud
+    servername: support.zoom.us.id-ikd001.kegiatanja.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /xrayvmess
       headers:
-        Host: support.zoom.us.id-nusa.kedaivpn.cloud
-    udp: false
-  - name: KEDAI GRPC Udp
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.id-nusa.kedaivpn.cloud
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
-    udp: true
-  - name: KEDAI GRPC Xudp
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: 67c487c5-4800-42a7-ae98-9d5afee94bef
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.id-nusa.kedaivpn.cloud
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
-    udp: false
-  - name: ROBOT GRPC Udp
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
-    skip-cert-verify: true
-    sni: support.zoom.us.kdi.liteon.biz.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
-  - name: ROBOT GRPC Xudp
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
-    skip-cert-verify: true
-    sni: support.zoom.us.kdi.liteon.biz.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: false
-  - name: ROBOT WS Udp
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
-    skip-cert-verify: true
-    sni: support.zoom.us.kdi.liteon.biz.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: support.zoom.us.kdi.liteon.biz.id
-    udp: true
-  - name: ROBOT WS Xudp
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
-    skip-cert-verify: true
-    sni: support.zoom.us.kdi.liteon.biz.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: support.zoom.us.kdi.liteon.biz.id
+        Host: support.zoom.us.id-ikd001.kegiatanja.my.id
     udp: false
