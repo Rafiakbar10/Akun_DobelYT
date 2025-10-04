@@ -57,3 +57,29 @@ proxies:
       headers:
         Host: support.zoom.us.id-ikd001.kegiatanja.my.id
     udp: false
+  - name: Robot UDP
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
+    skip-cert-verify: true
+    sni: support.zoom.us.kdi.liteon.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: support.zoom.us.kdi.liteon.biz.id
+    udp: true
+  - name: Robot XUDP
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
+    skip-cert-verify: true
+    sni: support.zoom.us.kdi.liteon.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: support.zoom.us.kdi.liteon.biz.id
+    udp: 
