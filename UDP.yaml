@@ -24,7 +24,7 @@ proxies:
       path: /trojan-go
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: false
+    udp: true
   - name: IKD UDP
     server: support.zoom.us
     port: 443
@@ -56,7 +56,7 @@ proxies:
       path: /xrayvmess
       headers:
         Host: support.zoom.us.id-ikd001.kegiatanja.my.id
-    udp: false
+    udp: true
   - name: Robot UDP
     server: support.zoom.us
     port: 443
@@ -82,7 +82,7 @@ proxies:
       path: /trojan-ws
       headers:
         Host: support.zoom.us.kdi.liteon.biz.id
-    udp: false
+    udp: true
   - name: Biznet UDP
     server: support.zoom.us
     port: 443
@@ -108,4 +108,4 @@ proxies:
       path: /trojan-go
       headers:
         Host: support.zoom.us.id-biznet001.beritanect.click
-    udp: false
+    udp: true
