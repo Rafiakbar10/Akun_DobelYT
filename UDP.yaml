@@ -1,5 +1,5 @@
 proxies:
-  - name: SG WS Udp
+  - name: SG WS 1
     server: support.zoom.us
     port: 443
     type: trojan
@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SG WS Xudp
+  - name: SG WS 2
     server: support.zoom.us
     port: 443
     type: trojan
@@ -25,7 +25,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: IKD UDP
+  - name: IKD 1
     server: support.zoom.us
     port: 443
     type: vmess
@@ -41,7 +41,7 @@ proxies:
       headers:
         Host: support.zoom.us.id-ikd001.kegiatanja.my.id
     udp: true
-  - name: IKD XUDP
+  - name: IKD 2
     server: support.zoom.us
     port: 443
     type: vmess
@@ -57,55 +57,29 @@ proxies:
       headers:
         Host: support.zoom.us.id-ikd001.kegiatanja.my.id
     udp: true
-  - name: Robot UDP
+  - name: Awan Data 1
     server: support.zoom.us
     port: 443
     type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
+    password: Rafiakbar5
     skip-cert-verify: true
-    sni: support.zoom.us.kdi.liteon.biz.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: support.zoom.us.kdi.liteon.biz.id
-    udp: true
-  - name: Robot XUDP
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 84be0a9b-1653-4bb6-b51e-940d74c29dfc
-    skip-cert-verify: true
-    sni: support.zoom.us.kdi.liteon.biz.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: support.zoom.us.kdi.liteon.biz.id
-    udp: true
-  - name: Biznet UDP
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.id-biznet001.beritanect.click
+    sni: support.zoom.us.id-awandata001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: support.zoom.us.id-biznet001.beritanect.click
+        Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: Biznet Xudp
+  - name: Awan Data 2
     server: support.zoom.us
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar5
     skip-cert-verify: true
-    sni: support.zoom.us.id-biznet001.beritanect.click
+    sni: support.zoom.us.id-awandata001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: support.zoom.us.id-biznet001.beritanect.click
+        Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
