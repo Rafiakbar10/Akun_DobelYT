@@ -15,16 +15,16 @@ proxies:
       headers:
         Host: support.zoom.us.id-ikd001.kegiatanja.my.id
     udp: true
-  - name: Biznet
+  - name: Awan Data
     server: support.zoom.us
     port: 443
     type: trojan
-    password: Rafiakbar22
+    password: Rafiakbar5
     skip-cert-verify: true
-    sni: support.zoom.us.id-biznet001.beritanect.click
+    sni: support.zoom.us.id-awandata001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: support.zoom.us.id-biznet001.beritanect.click
+        Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
