@@ -96,16 +96,16 @@ proxies:
       headers:
         Host: support.zoom.us.free.tunneling.dpdns.org
     udp: true
-  - name: Telekomunikasi 🇮🇩
+  - name: Telekomunikasi🇮🇩
     server: support.zoom.us
     port: 443
     type: trojan
     password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-    network: ws
-    tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.free.tunneling.dpdns.org
+    sni: support.zoom.us.free.tunneling.dpdns.org
+    network: ws
     ws-opts:
       path: /36.95.152.58-12137
       headers:
         Host: support.zoom.us.free.tunneling.dpdns.org
+    udp: true
