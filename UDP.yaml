@@ -83,16 +83,16 @@ proxies:
       headers:
         Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: 20 🇸🇬 DigitalOcean
+  - name: "2 🇸🇬 Alibaba Cloud - SG WS TLS [mikey]"
     server: support.zoom.us
     port: 443
     type: trojan
-    password: 8942b7bc-330f-49e1-8a63-7c92ff1cb8b0
+    password: 2874f497-b591-4f28-be32-fd6bd58bee05
     skip-cert-verify: true
-    sni: support.zoom.us.vip.ndygaming.web.id
+    sni: support.zoom.us.mikey.ajiez.biz.id
     network: ws
     ws-opts:
-      path: /143.198.196.196-8443
+      path: /47.74.254.191-8900
       headers:
-        Host: support.zoom.us.vip.ndygaming.web.id
+        Host: support.zoom.us.mikey.ajiez.biz.id
     udp: true
