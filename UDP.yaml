@@ -12,11 +12,11 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: trial-go
+  - name: GLOBAL SG
     server: support.zoom.us
     port: 443
     type: trojan
-    password: cobadulu23
+    password: Rafiakbar05
     skip-cert-verify: true
     sni: support.zoom.us.sg-gsl001.arenato.rest
     network: ws
