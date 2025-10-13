@@ -12,6 +12,19 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl001.arenato.rest
     udp: true
+  - name: trojan-go
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: dicoba233
+    skip-cert-verify: true
+    sni: support.zoom.us.tro-sgdo001.tunggure.buzz
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: support.zoom.us.tro-sgdo001.tunggure.buzz
+    udp: true
   - name: IKD 1
     server: support.zoom.us
     port: 443
