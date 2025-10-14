@@ -1,19 +1,19 @@
 proxies:
-  - name: Wow Net
+  - name: Wijaya
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: ad2ac54c-eaa4-57e6-9b2c-018e4d32bfc8
+    uuid: 58cca67f-276d-528a-bc3e-e443c189576c
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.id-wownet001.beritanect.click
+    servername: support.zoom.us.id-wijaya001.beritanect.click
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: support.zoom.us.id-wownet001.beritanect.click
+        Host: support.zoom.us.id-wijaya001.beritanect.click
     udp: true
   - name: Awan Data
     server: support.zoom.us
