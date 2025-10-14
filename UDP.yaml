@@ -12,19 +12,6 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl001.arenato.rest
     udp: true
-  - name: "[XioN] ID - GOLD IP LLC FZ"
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-    skip-cert-verify: true
-    sni: support.zoom.us.free.xiongt.my.id
-    network: ws
-    ws-opts:
-      path: /Free/TG-at-XionAlva/31.56.196.240-2053
-      headers:
-        Host: support.zoom.us.free.xiongt.my.id
-    udp: true
   - name: Awan Data 1
     server: support.zoom.us
     port: 443
@@ -37,4 +24,20 @@ proxies:
       path: /trojan-go
       headers:
         Host: support.zoom.us.id-awandata001.beritanect.click
+    udp: true
+  - name: Raja Mitra
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.id-rajamitra001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: support.zoom.us.id-rajamitra001.beritanect.click
     udp: true
