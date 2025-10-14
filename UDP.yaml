@@ -12,20 +12,18 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl001.arenato.rest
     udp: true
-  - name: "Custom Proxy WS TLS [@last_masterX]"
-    server: support.zoom.us
+  - name: ID+CV. Rumahweb Indonesia
+    server: source.zoom.us
     port: 443
-    type: vless
-    uuid: c3e148a6-a1fe-4233-b09b-fef47ca7d98d
-    cipher: auto
-    tls: true
+    type: trojan
+    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
     skip-cert-verify: true
-    servername: support.zoom.us.bersama-551.pages.dev
+    sni: source.zoom.us.free.mediafairy.web.id
     network: ws
     ws-opts:
-      path: /103.168.146.169-20132
+      path: /203.194.112.119-2053
       headers:
-        Host: support.zoom.us.bersama-551.pages.dev
+        Host: source.zoom.us.free.mediafairy.web.id
     udp: true
   - name: IKD 1
     server: support.zoom.us
