@@ -11,3 +11,19 @@
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
+  - name: IKD 1
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.id-ikd001.kegiatanja.my.id
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: support.zoom.us.id-ikd001.kegiatanja.my.id
+    udp: true
