@@ -30,7 +30,7 @@ proxies:
     udp: true
   - name: Awan Data 1
     server: support.zoom.us
-    port: 80
+    port: 443
     type: trojan
     password: Rafiakbar5
     skip-cert-verify: true
