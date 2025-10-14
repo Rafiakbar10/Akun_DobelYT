@@ -12,6 +12,22 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl001.arenato.rest
     udp: true
+  - name: trial
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: 45441854-7d8f-5a1b-a943-b915c21c9970
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.id-qw001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: support.zoom.us.id-qw001.beritanect.click
+    udp: true
   - name: IKD 1
     server: support.zoom.us
     port: 443
