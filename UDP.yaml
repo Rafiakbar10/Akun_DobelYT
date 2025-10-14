@@ -12,22 +12,9 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl001.arenato.rest
     udp: true
-  - name: "🇮🇩 CV. Rumahweb Indonesia WS NTLS [203.194.112.119]"
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 86768774-70b2-4c15-80c3-02066fb1e3b6
-    skip-cert-verify: true
-    sni: support.zoom.us.vip.ndygaming.web.id
-    network: ws
-    ws-opts:
-      path: /203.194.112.119-2053
-      headers:
-        Host: support.zoom.us.vip.ndygaming.web.id
-    udp: true
   - name: IKD 1
     server: support.zoom.us
-    port: 80
+    port: 443
     type: vmess
     uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
     alterId: 0
@@ -43,7 +30,7 @@ proxies:
     udp: true
   - name: Awan Data 1
     server: support.zoom.us
-    port: 443
+    port: 80
     type: trojan
     password: Rafiakbar5
     skip-cert-verify: true
