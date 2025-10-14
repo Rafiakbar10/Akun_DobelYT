@@ -1,21 +1,18 @@
 proxies:
-  - name: Wijaya ID
+  - name: Awan Data
     server: support.zoom.us
     port: 443
-    type: vmess
-    uuid: 58cca67f-276d-528a-bc3e-e443c189576c
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar5
     skip-cert-verify: true
-    servername: support.zoom.us.id-wijaya001.beritanect.click
+    sni: support.zoom.us.id-awandata001.beritanect.click
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan-go
       headers:
-        Host: support.zoom.us.id-wijaya001.beritanect.click
+        Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: Awan Data
+  - name: Awan Data 1
     server: support.zoom.us
     port: 443
     type: trojan
