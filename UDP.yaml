@@ -12,18 +12,18 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl001.arenato.rest
     udp: true
-  - name: ID+CV. Rumahweb Indonesia
-    server: source.zoom.us
-    port: 443
+  - name: "🇮🇩 CV. Rumahweb Indonesia WS NTLS [203.194.112.119]"
+    server: support.zoom.us
+    port: 80
     type: trojan
-    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+    password: 86768774-70b2-4c15-80c3-02066fb1e3b6
     skip-cert-verify: true
-    sni: source.zoom.us.free.mediafairy.web.id
+    sni: support.zoom.us.vip.ndygaming.web.id
     network: ws
     ws-opts:
       path: /203.194.112.119-2053
       headers:
-        Host: source.zoom.us.free.mediafairy.web.id
+        Host: support.zoom.us.vip.ndygaming.web.id
     udp: true
   - name: IKD 1
     server: support.zoom.us
