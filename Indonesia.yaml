@@ -12,16 +12,19 @@ proxies:
       headers:
         Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: Awan Data 1
+  - name: Raja Mitra
     server: support.zoom.us
     port: 443
-    type: trojan
-    password: Rafiakbar5
+    type: vmess
+    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: support.zoom.us.id-awandata001.beritanect.click
+    servername: support.zoom.us.id-rajamitra001.beritanect.click
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /xrayvmess
       headers:
-        Host: support.zoom.us.id-awandata001.beritanect.click
+        Host: support.zoom.us.id-rajamitra001.beritanect.click
     udp: true
