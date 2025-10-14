@@ -1,19 +1,19 @@
 proxies:
-  - name: IKD 
+  - name: Wow Net
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
+    uuid: ad2ac54c-eaa4-57e6-9b2c-018e4d32bfc8
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.id-ikd001.kegiatanja.my.id
+    servername: support.zoom.us.id-wownet001.beritanect.click
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: support.zoom.us.id-ikd001.kegiatanja.my.id
+        Host: support.zoom.us.id-wownet001.beritanect.click
     udp: true
   - name: Awan Data
     server: support.zoom.us
