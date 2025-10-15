@@ -42,7 +42,7 @@ proxies:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
   - name: CV Rumahweb Indonesia
-    server: support.zoom.us
+    server: 172.67.73.39
     port: 443
     type: vless
     uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
@@ -52,7 +52,7 @@ proxies:
     servername: support.zoom.us.free.mediafairy.web.id
     network: ws
     ws-opts:
-      path: /203.194.112.119-2053
+      path: /103.168.146.169-20132
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
