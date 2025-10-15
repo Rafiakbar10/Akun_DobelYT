@@ -1,4 +1,17 @@
 proxies:
+  - name: SG WS 1
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: support.zoom.us.sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: true
   - name: Microsoft Corporation
     server: support.zoom.us
     port: 443
@@ -24,21 +37,6 @@ proxies:
     network: ws
     ws-opts:
       path: /91.192.81.154-2053
-      headers:
-        Host: support.zoom.us.free.mediafairy.web.id
-    udp: true
-  - name: OVH Singapore PTE LTD
-    server: support.zoom.us
-    port: 443
-    type: vless
-    uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.free.mediafairy.web.id
-    network: ws
-    ws-opts:
-      path: /51.79.158.58-2053
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
