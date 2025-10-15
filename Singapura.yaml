@@ -55,3 +55,18 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
+  - name: Contabo GmbH
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.free.mediafairy.web.id
+    network: ws
+    ws-opts:
+      path: /84.247.152.46-10045
+      headers:
+        Host: support.zoom.us.free.mediafairy.web.id
+    udp: true
