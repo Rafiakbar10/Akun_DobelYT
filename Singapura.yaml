@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl001.arenato.rest
     udp: true
-  - name: SG+Internet Utilities NA LLC
+  - name: Internet Utilities NA LLC
     server: support.zoom.us
     port: 443
     type: trojan
@@ -25,7 +25,7 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
-  - name: SG+DigitalOcean LLC
+  - name: DigitalOcean LLC
     server: support.zoom.us
     port: 443
     type: trojan
@@ -38,7 +38,7 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
-  - name: SG+Microsoft Corporation
+  - name: Microsoft Corporation
     server: support.zoom.us
     port: 443
     type: trojan
