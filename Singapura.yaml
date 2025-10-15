@@ -1,17 +1,4 @@
 proxies:
-  - name: Global Sc
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar05
-    skip-cert-verify: true
-    sni: support.zoom.us.sg-gsl001.arenato.rest
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.sg-gsl001.arenato.rest
-    udp: true
   - name: Microsoft Corporation
     server: support.zoom.us
     port: 443
@@ -55,7 +42,7 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
-  - name: Contabo GmbH
+  - name: Jepang Contabo GmbH
     server: support.zoom.us
     port: 443
     type: vless
@@ -70,7 +57,7 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
-  - name: CN+Hurricane Electric LLC
+  - name: China Hurricane Electric LLC
     server: support.zoom.us
     port: 443
     type: trojan
@@ -82,17 +69,4 @@ proxies:
       path: /192.3.113.4-19318
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
-    udp: true
-  - name: Trojan_WS-TLS-34618f01a083
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 0ae119efa8608b
-    skip-cert-verify: true
-    sni: support.zoom.us.vpn.siub.xyz
-    network: ws
-    ws-opts:
-      path: /trojanws
-      headers:
-        Host: support.zoom.us.vpn.siub.xyz
     udp: true
