@@ -1,6 +1,6 @@
 proxies:
   - name: Raja Mitra
-    server: support.zoom.us
+    server: 172.67.73.39
     port: 443
     type: vmess
     uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
@@ -16,7 +16,7 @@ proxies:
         Host: support.zoom.us.id-rajamitra001.beritanect.click
     udp: true
   - name: Awan Data
-    server: support.zoom.us
+    server: 172.67.73.39
     port: 443
     type: trojan
     password: Rafiakbar5
@@ -28,8 +28,8 @@ proxies:
       headers:
         Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: Telekomunikasi Indonesia
-    server: support.zoom.us
+  - name: Telekomu
+    server: 172.67.73.39
     port: 443
     type: trojan
     password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
@@ -37,11 +37,11 @@ proxies:
     sni: support.zoom.us.free.mediafairy.web.id
     network: ws
     ws-opts:
-      path: /36.95.152.58-12137
+      path: /103.168.146.169-20132
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
-  - name: CV Rumahweb Indonesia
+  - name: Rumahweb
     server: 172.67.73.39
     port: 443
     type: vless
@@ -52,7 +52,7 @@ proxies:
     servername: support.zoom.us.free.mediafairy.web.id
     network: ws
     ws-opts:
-      path: /103.168.146.169-20132
+      path: /203.194.112.119-2053
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
