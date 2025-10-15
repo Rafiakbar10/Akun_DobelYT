@@ -28,7 +28,20 @@ proxies:
       headers:
         Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: ID+PT Pusat Media Indonesia
+  - name: Telekomunikasi Indonesia
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+    skip-cert-verify: true
+    sni: support.zoom.us.free.mediafairy.web.id
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: support.zoom.us.free.mediafairy.web.id
+    udp: true
+  - name: Pusat Media Indonesia
     server: support.zoom.us
     port: 443
     type: trojan
