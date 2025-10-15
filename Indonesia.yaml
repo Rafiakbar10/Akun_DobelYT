@@ -28,7 +28,7 @@ proxies:
       headers:
         Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: Telekomu
+  - name: Telekom
     server: 172.67.73.39
     port: 443
     type: trojan
@@ -37,7 +37,7 @@ proxies:
     sni: support.zoom.us.free.mediafairy.web.id
     network: ws
     ws-opts:
-      path: /103.168.146.169-20132
+      path: /36.95.152.58-12137
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
