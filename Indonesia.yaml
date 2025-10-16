@@ -15,16 +15,3 @@ proxies:
       headers:
         Host: support.zoom.us.id-rajamitra001.beritanect.click
     udp: true
-  - name: Awan Data
-    server: 172.67.73.39
-    port: 443
-    type: trojan
-    password: Rafiakbar5
-    skip-cert-verify: true
-    sni: support.zoom.us.id-awandata001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-awandata001.beritanect.click
-    udp: true
