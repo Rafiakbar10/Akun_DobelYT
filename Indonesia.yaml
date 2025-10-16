@@ -28,31 +28,3 @@ proxies:
       headers:
         Host: support.zoom.us.id-awandata001.beritanect.click
     udp: true
-  - name: Telekom
-    server: 172.67.73.39
-    port: 443
-    type: trojan
-    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-    skip-cert-verify: true
-    sni: support.zoom.us.free.mediafairy.web.id
-    network: ws
-    ws-opts:
-      path: /36.95.152.58-12137
-      headers:
-        Host: support.zoom.us.free.mediafairy.web.id
-    udp: true
-  - name: Rumahweb
-    server: 172.67.73.39
-    port: 443
-    type: vless
-    uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.free.mediafairy.web.id
-    network: ws
-    ws-opts:
-      path: /203.194.112.119-2053
-      headers:
-        Host: support.zoom.us.free.mediafairy.web.id
-    udp: true
