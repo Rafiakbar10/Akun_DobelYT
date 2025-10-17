@@ -14,19 +14,20 @@ proxies:
       path: /xrayvmess
       headers:
         Host: support.zoom.us.id-rajamitra001.beritanect.click
-    udp: true    
-  - name: Telekomunikasi
-    server: 172.67.73.39
+    udp: true
+  - name: Raja gRPC 
+    server: 104.17.3.81
     port: 443
-    type: trojan
-    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+    type: vmess
+    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: support.zoom.us.free.mediafairy.web.id
-    network: ws
-    ws-opts:
-      path: /36.95.152.58-12137
-      headers:
-        Host: support.zoom.us.free.mediafairy.web.id
+    servername: id-rajamitra001.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
   - name: Raja ws Ip
     server: 104.17.3.81
@@ -43,18 +44,18 @@ proxies:
       path: /xrayvmess
       headers:
         Host: id-rajamitra001.beritanect.click
-    udp: true    
-  - name: Raja gRPC 
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-rajamitra001.gosni.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
     udp: true
+  - name: Telekomunikasi
+    server: 172.67.73.39
+    port: 443
+    type: trojan
+    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+    skip-cert-verify: true
+    sni: support.zoom.us.free.mediafairy.web.id
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: support.zoom.us.free.mediafairy.web.id
+    udp: true
+
