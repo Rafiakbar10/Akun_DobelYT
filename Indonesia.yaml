@@ -28,6 +28,22 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
+  - name: Raja
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-rajamitra001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: id-rajamitra001.beritanect.click
+    udp: true    
   - name: ip
     server: 104.17.3.81
     port: 443
