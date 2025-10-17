@@ -28,7 +28,7 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
-  - name: Raja
+  - name: Raja ws Ip
     server: 104.17.3.81
     port: 443
     type: vmess
@@ -44,27 +44,17 @@ proxies:
       headers:
         Host: id-rajamitra001.beritanect.click
     udp: true    
-  - name: ip
+  - name: Raja gRPC 
     server: 104.17.3.81
     port: 443
-    type: trojan
-    password: 8db3cc9c-55d5-43f8-abe1-431f0dbf51b4
+    type: vmess
+    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg2.liteon.biz.id
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: sg2.liteon.biz.id
-    udp: true
-  - name: grpc
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 8db3cc9c-55d5-43f8-abe1-431f0dbf51b4
-    skip-cert-verify: true
-    sni: support.zoom.us.sg2.liteon.biz.id
+    servername: id-rajamitra001.gosni.web.id
     network: grpc
     grpc-opts:
-      grpc-service-name: trojan-grpc
+      grpc-service-name: vmess-grpc
     udp: true
