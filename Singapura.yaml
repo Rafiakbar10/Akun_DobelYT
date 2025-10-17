@@ -1,5 +1,5 @@
 proxies:
-  - name: SG WS 1
+  - name: SG SP WC
     server: 172.67.73.39
     port: 443
     type: trojan
@@ -11,6 +11,30 @@ proxies:
       path: /trojan-go
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: true
+  - name: SG SP ws ip
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: sg-gsl002.arenato.rest
+    udp: true
+  - name: SG grpc
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: rafiakbar10
+    skip-cert-verify: true
+    sni: sg-gsl002.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
     udp: true
   - name: Microsoft Corporation
     server: 172.67.73.39
