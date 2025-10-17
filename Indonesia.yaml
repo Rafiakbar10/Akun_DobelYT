@@ -28,7 +28,7 @@ proxies:
       headers:
         Host: support.zoom.us.free.mediafairy.web.id
     udp: true
-  - name: Raja Mitra
+  - name: Raja
     server: 104.17.3.81
     port: 443
     type: vmess
