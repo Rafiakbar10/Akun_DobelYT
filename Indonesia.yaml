@@ -1,5 +1,5 @@
 proxies:
-  - name: Raja Mitra
+  - name: Raja Mitra WC
     server: 172.67.73.39
     port: 443
     type: vmess
@@ -29,7 +29,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: Raja ws Ip
+  - name: Raja ws ip
     server: 104.17.3.81
     port: 443
     type: vmess
