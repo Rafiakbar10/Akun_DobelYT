@@ -45,17 +45,4 @@ proxies:
       headers:
         Host: id-rajamitra001.beritanect.click
     udp: true
-  - name: Telekomunikasi
-    server: 172.67.73.39
-    port: 443
-    type: trojan
-    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-    skip-cert-verify: true
-    sni: support.zoom.us.free.mediafairy.web.id
-    network: ws
-    ws-opts:
-      path: /36.95.152.58-12137
-      headers:
-        Host: support.zoom.us.free.mediafairy.web.id
-    udp: true
 
