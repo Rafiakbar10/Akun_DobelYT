@@ -36,31 +36,3 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: Microsoft Corporation
-    server: 172.67.73.39
-    port: 443
-    type: trojan
-    password: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-    skip-cert-verify: true
-    sni: support.zoom.us.free.mediafairy.web.id
-    network: ws
-    ws-opts:
-      path: /20.205.177.152-443
-      headers:
-        Host: support.zoom.us.free.mediafairy.web.id
-    udp: true
-  - name: Melbikomas UAB
-    server: 172.67.73.39
-    port: 443
-    type: vless
-    uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.free.mediafairy.web.id
-    network: ws
-    ws-opts:
-      path: /91.192.81.154-2053
-      headers:
-        Host: support.zoom.us.free.mediafairy.web.id
-    udp: true
