@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
-  - name: NonTLS
+  - name: Atha NonTLS
     server: 172.67.73.39
     port: 80
     type: vmess
@@ -30,6 +30,20 @@ proxies:
       path: /xrayvmess
       headers:
         Host: id-atha001.kegiatanja.my.id
+    udp: true
+  - name: Atha gRPC 
+    server: 172.67.73.39
+    port: 443
+    type: vmess
+    uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-atha001.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
   - name: IKD WC
     server: 172.67.73.39
