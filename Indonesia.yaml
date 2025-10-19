@@ -1,5 +1,5 @@
 proxies:
-  - name: IKD 1
+  - name: IKD WC
     server: 172.67.73.39
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: support.zoom.us.id-ikd001.kegiatanja.my.id
     udp: true
-  - name: IKD 1
+  - name: IKD IP
     server: 104.17.3.81
     port: 443
     type: vmess
@@ -30,51 +30,5 @@ proxies:
       path: /xrayvmess
       headers:
         Host: id-ikd001.kegiatanja.my.id
-    udp: true
-  - name: Raja Mitra WC
-    server: 172.67.73.39
-    port: 443
-    type: vmess
-    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.id-rajamitra001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.id-rajamitra001.beritanect.click
-    udp: true
-  - name: Raja gRPC 
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-rajamitra001.gosni.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
-    udp: true
-  - name: Raja ws ip
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: d32416a2-0dd3-5e69-933f-e71d0a28bf1a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-rajamitra001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: id-rajamitra001.beritanect.click
     udp: true
 
