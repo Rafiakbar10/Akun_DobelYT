@@ -77,3 +77,19 @@ proxies:
       headers:
         Host: support.zoom.us.id-dewa001.beritanect.click
     udp: true
+  - name: atha
+    server: 172.67.73.39
+    port: 443
+    type: vmess
+    uuid: 09834d7b-1251-5534-ad00-ae00a2d575e5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.id-atha001.kegiatanja.my.id
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: support.zoom.us.id-atha001.kegiatanja.my.id
+    udp: true
