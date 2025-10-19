@@ -16,7 +16,7 @@ proxies:
         Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
   - name: Atha NonTLS
-    server: 172.67.73.39
+    server: 104.17.3.81
     port: 80
     type: vmess
     uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
@@ -32,7 +32,7 @@ proxies:
         Host: id-atha001.kegiatanja.my.id
     udp: true
   - name: Atha gRPC 
-    server: 172.67.73.39
+    server: 104.17.3.81
     port: 443
     type: vmess
     uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
@@ -45,8 +45,8 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: Atha WC
-    server: 172.67.73.39
+  - name: Atha IP
+    server: 104.17.3.81
     port: 443
     type: vmess
     uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
@@ -61,65 +61,4 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: IKD WC
-    server: 172.67.73.39
-    port: 443
-    type: vmess
-    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.id-ikd001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.id-ikd001.kegiatanja.my.id
-    udp: true
-  - name: IKD IP
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-ikd001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: id-ikd001.kegiatanja.my.id
-    udp: true
-  - name: IKD GRPC 
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-ikd001.gosni.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
-    udp: true
-  - name: NonTls
-    server: 104.17.3.81
-    port: 80
-    type: vmess
-    uuid: d4a8fd23-4535-5b5e-aff0-d34c17701992
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-ikd001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: id-ikd001.kegiatanja.my.id
-    udp: true
+
