@@ -61,3 +61,19 @@ proxies:
       headers:
         Host: id-ikd001.kegiatanja.my.id
     udp: true
+  - name: Dewa
+    server: 172.67.73.39
+    port: 443
+    type: vmess
+    uuid: e7943a7b-306b-54cb-9acd-de115996e5b4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.id-dewa001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: support.zoom.us.id-dewa001.beritanect.click
+    udp: true
