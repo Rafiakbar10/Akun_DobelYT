@@ -15,18 +15,18 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: NATAN WC
+  - name: BIZNET WC
     server: 172.67.73.39
     port: 443
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.id7tr.jagoanvip.xyz
+    sni: support.zoom.us.id4tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: support.zoom.us.id7tr.jagoanvip.xyz
+        Host: support.zoom.us.id4tr.jagoanvip.xyz
     udp: true
   - name: Atha WC
     server: 172.67.73.39
@@ -44,18 +44,18 @@ proxies:
       headers:
         Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
-  - name: NATAN IP
+  - name: BIZNET IP
     server: 104.17.3.81
     port: 443
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: id7tr.jagoanvip.xyz
+    sni: id4tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id7tr.jagoanvip.xyz
+        Host: id4tr.jagoanvip.xyz
     udp: true
   - name: Atha NonTLS
     server: 104.17.3.81
@@ -73,13 +73,13 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: NATAN GRPC
+  - name: BIZNET GRPC
     server: 172.67.73.39
     port: 443
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.id7tr.jagoanvip.xyz
+    sni: support.zoom.us.id4tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
