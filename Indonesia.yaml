@@ -21,12 +21,12 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.id2tr.jagoanvip.xyz
+    sni: support.zoom.us.id7tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: support.zoom.us.id2tr.jagoanvip.xyz
+        Host: support.zoom.us.id7tr.jagoanvip.xyz
     udp: true
   - name: Atha WC
     server: 172.67.73.39
@@ -50,7 +50,7 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.id2tr.jagoanvip.xyz
+    sni: support.zoom.us.id7tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
@@ -77,7 +77,7 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
+    sni: id7tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
