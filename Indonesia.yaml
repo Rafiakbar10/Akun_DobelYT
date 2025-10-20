@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
-  - name: NANTAN IP
+  - name: NATAN IP
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -73,8 +73,8 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: "NATAN GRPC"
-    server: 104.17.3.81
+  - name: NATAN GRPC
+    server: 172.67.73.39
     port: 443
     type: trojan
     password: vvip-Rafiakbar22
