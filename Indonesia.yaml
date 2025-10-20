@@ -74,12 +74,12 @@ proxies:
         Host: id-atha001.kegiatanja.my.id
     udp: true
   - name: BIZNET GRPC
-    server: 172.67.73.39
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: support.zoom.us.id4tr.jagoanvip.xyz
+    sni: id4tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
