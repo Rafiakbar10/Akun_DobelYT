@@ -73,7 +73,7 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: BIZNET GRPC
+  - name: BIZNET gRPC
     server: 104.17.3.81
     port: 443
     type: trojan
