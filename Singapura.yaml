@@ -36,3 +36,17 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
+  - name: (SG) bacup
+    server: joss.gpj2.dpdns.org
+    port: 443
+    type: trojan
+    password: 92e7120c-78cf-4d5b-bce4-5831f09282cd
+    skip-cert-verify: true
+    sni: joss.gpj2.dpdns.org
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/104.248.145.216=443
+      headers:
+        Host: joss.gpj2.dpdns.org
+    udp: true
+
