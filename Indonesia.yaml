@@ -79,7 +79,7 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: id7tr.jagoanvip.xyz
+    sni: support.zoom.us.id7tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
