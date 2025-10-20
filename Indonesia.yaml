@@ -61,16 +61,3 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: Bacup
-    server: joss.gpj2.dpdns.org
-    port: 443
-    type: trojan
-    password: ddfa720f-380c-4f1a-a19e-b5b0b603a568
-    skip-cert-verify: true
-    sni: joss.gpj2.dpdns.org
-    network: ws
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/ID4
-      headers:
-        Host: joss.gpj2.dpdns.org
-    udp: true
