@@ -36,17 +36,5 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
-  - name: SG bacup
-    server: 172.67.73.39
-    port: 443
-    type: trojan
-    password: 2462c880-ad89-11f0-bfdb-1239d0255272
-    skip-cert-verify: true
-    sni: sg3.socifiles.com
-    network: ws
-    ws-opts:
-      path: /trojanws
-      headers:
-        Host: sg3.socifiles.com
-    udp: true
+
 
