@@ -1,4 +1,17 @@
 proxies:
+  - name: NUSA IP
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id2tr.jagoanvip.xyz
+    udp: true
   - name: Atha IP
     server: 104.17.3.81
     port: 443
@@ -31,6 +44,19 @@ proxies:
       headers:
         Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
+  - name: NUSA WC
+    server: 172.67.73.39
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: support.zoom.us.id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: support.zoom.us.id2tr.jagoanvip.xyz
+    udp: true
   - name: Atha NonTLS
     server: 104.17.3.81
     port: 80
@@ -46,6 +72,17 @@ proxies:
       path: /xrayvmess
       headers:
         Host: id-atha001.kegiatanja.my.id
+    udp: true
+  - name: NUSA gRPC
+    server: 172.67.73.39
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: support.zoom.us.id2tr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
     udp: true
   - name: Atha gRPC 
     server: 104.17.3.81
