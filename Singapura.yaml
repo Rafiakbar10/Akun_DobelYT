@@ -25,11 +25,11 @@ proxies:
       headers:
         Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SG grpc
+  - name: SG SP gRpc
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: rafiakbar10
+    password: Rafiakbar10
     skip-cert-verify: true
     sni: sg-gsl002.gosni.web.id
     network: grpc
