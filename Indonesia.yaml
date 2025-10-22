@@ -3,7 +3,7 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
+    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
     alterId: 0
     cipher: auto
     tls: true
@@ -32,7 +32,7 @@ proxies:
     server: 172.67.73.39
     port: 443
     type: vmess
-    uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
+    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
     alterId: 0
     cipher: auto
     tls: true
@@ -61,7 +61,7 @@ proxies:
     server: 104.17.3.81
     port: 80
     type: vmess
-    uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
+    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
     alterId: 0
     cipher: auto
     tls: false
@@ -88,7 +88,7 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: e8f811c4-4f57-5eab-a182-71efe2b9ce13
+    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
     alterId: 0
     cipher: auto
     tls: true
