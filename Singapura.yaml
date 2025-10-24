@@ -36,5 +36,18 @@ proxies:
     grpc-opts:
       grpc-service-name: trojan-grpc
     udp: true
+  - name: IKD WC
+    server: 172.67.73.39
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: support.zoom.us.idtr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: support.zoom.us.idtr.jagoanvip.xyz
+    udp: true
 
 
