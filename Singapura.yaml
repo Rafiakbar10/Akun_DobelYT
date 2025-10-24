@@ -48,7 +48,7 @@ proxies:
         Host: sg-gsl002.arenato.rest
     udp: true
   - name: SERVER gRPC
-    server: 104.17.3.81
+    server: 172.67.73.39
     port: 443
     type: vmess
     uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
@@ -60,19 +60,6 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
-    udp: true
-  - name: IKD WC
-    server: 172.67.73.39
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
 
 
