@@ -1,5 +1,5 @@
 proxies:
-  - name: SERVER WC
+  - name: WS
     server: 172.67.73.39
     port: 443
     type: vmess
@@ -14,52 +14,6 @@ proxies:
       path: /xrayvmess
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-  - name: SERVER IP
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-  - name: SERVER NTLS
-    server: 172.67.73.39
-    port: 80
-    type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: sg-gsl002.arenato.rest
-    udp: true
-  - name: SERVER gRPC
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
     udp: true
   - name: SG SP WC-go
     server: 172.67.73.39
