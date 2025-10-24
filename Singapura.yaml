@@ -29,6 +29,19 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
+  - name: SG SP WC
+    server: 172.67.73.39
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: support.zoom.us.sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: support.zoom.us.sg-gsl002.arenato.rest
+    udp: true
   - name: SG SP IP-go
     server: 104.17.3.81
     port: 443
