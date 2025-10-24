@@ -1,21 +1,5 @@
 proxies:
-  - name: WS
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-  - name: SG SP WC-go
+  - name: SG SP WC
     server: 172.67.73.39
     port: 443
     type: trojan
