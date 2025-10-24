@@ -47,8 +47,8 @@ proxies:
       headers:
         Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SERVER gRPC
-    server: 172.67.73.39
+  - name: SERVER GRPC
+    server: 104.17.3.81
     port: 443
     type: vmess
     uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
@@ -56,10 +56,9 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
+    servername: sg-gsl002.gosni.web.id
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-
 
