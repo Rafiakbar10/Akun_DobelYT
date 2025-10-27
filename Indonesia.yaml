@@ -25,19 +25,6 @@ proxies:
       headers:
         Host: idtr.jagoanvip.xyz
     udp: true
-  - name: IKD NTLS
-    server: 104.17.3.81
-    port: 80
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: idtr.jagoanvip.xyz
-    udp: true
   - name: IKD gRPC
     server: 104.17.3.81
     port: 443
