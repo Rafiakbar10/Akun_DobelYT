@@ -1,6 +1,6 @@
 proxies:
   - name: SERVER WC
-    server: 172.67.73.39
+    server: support.zoom.us
     port: 443
     type: vmess
     uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
