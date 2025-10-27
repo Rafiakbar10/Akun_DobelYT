@@ -1,33 +1,4 @@
 proxies:
-  - name: Atha 
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.id-atha001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
-    udp: true
-  - name: Atha IP
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-atha001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: id-atha001.kegiatanja.my.id
-    udp: true
   - name: IKD WC
     server: support.zoom.us
     port: 443
@@ -40,22 +11,6 @@ proxies:
       path: /trojan
       headers:
         Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: true
-  - name: Atha WC
-    server: 172.67.73.39
-    port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.id-atha001.kegiatanja.my.id
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.id-atha001.kegiatanja.my.id
     udp: true
   - name: IKD IP
     server: 104.17.3.81
@@ -70,21 +25,18 @@ proxies:
       headers:
         Host: idtr.jagoanvip.xyz
     udp: true
-  - name: Atha NonTLS
+  - name: IKD NTLS
     server: 104.17.3.81
     port: 80
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: false
+    type: trojan
+    password: vvip-Rafiakbar22
     skip-cert-verify: true
-    servername: id-atha001.kegiatanja.my.id
+    sni: idtr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan
       headers:
-        Host: id-atha001.kegiatanja.my.id
+        Host: idtr.jagoanvip.xyz
     udp: true
   - name: IKD gRPC
     server: 104.17.3.81
@@ -107,20 +59,6 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
-    udp: true
-  - name: Atha gRPC 
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: 972cb225-813c-5bff-b2d4-49676aee9106
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-atha001.gosni.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
     udp: true
 
 
