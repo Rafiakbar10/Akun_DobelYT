@@ -1,5 +1,5 @@
 proxies:
-  - name: atha 1
+  - name: Atha 
     server: support.zoom.us
     port: 443
     type: trojan
