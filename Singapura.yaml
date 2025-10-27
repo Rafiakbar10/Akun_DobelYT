@@ -1,5 +1,5 @@
 proxies:
-  - name: Wilcard 
+  - name: SERVER WC
     server: support.zoom.us
     port: 443
     type: vmess
