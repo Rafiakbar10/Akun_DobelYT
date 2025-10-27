@@ -84,6 +84,17 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
+  - name: IKD gRPC WC
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar22
+    skip-cert-verify: true
+    sni: support.zoom.us.idtr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
   - name: Atha gRPC 
     server: 104.17.3.81
     port: 443
