@@ -3,7 +3,7 @@ proxies:
     server: support.zoom.us
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -19,7 +19,7 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -35,7 +35,7 @@ proxies:
     server: 104.17.3.81
     port: 80
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: false
@@ -47,11 +47,11 @@ proxies:
       headers:
         Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SERVER GRPC
+  - name: SERVER Grpc
     server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: d319f772-a3ab-5a79-ad29-c16b40ed3af4
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
     alterId: 0
     cipher: auto
     tls: true
@@ -61,4 +61,3 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-
