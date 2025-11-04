@@ -1,4 +1,17 @@
 proxies:
+  - name: QW WC
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: support.zoom.us.id-qw001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: support.zoom.us.id-qw001.beritanect.click
+    udp: true
   - name: IKD WC
     server: support.zoom.us
     port: 443
@@ -11,6 +24,19 @@ proxies:
       path: /trojan
       headers:
         Host: support.zoom.us.idtr.jagoanvip.xyz
+    udp: true
+  - name: QW IP
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: id-qw001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-qw001.beritanect.click
     udp: true
   - name: IKD IP
     server: 104.17.3.81
@@ -25,6 +51,17 @@ proxies:
       headers:
         Host: idtr.jagoanvip.xyz
     udp: true
+  - name: QW gRPC 1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: id-qwords001.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
   - name: IKD gRPC
     server: 104.17.3.81
     port: 443
@@ -35,6 +72,17 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
+    udp: true
+  - name: QW gRPC 2
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: id-qwords001.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
     udp: true
   - name: IKD gRPC WC
     server: support.zoom.us
