@@ -25,7 +25,6 @@ proxies:
       headers:
         Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
-  - name: QW IP
   - name: WIJAYA IP
     server: 104.17.3.81
     port: 443
