@@ -95,6 +95,18 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-
+  - name: WIJAYA PLAY 1
+    server: id-wijaya001.gosni.web.id
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-wijaya001.gosni.web.id
+    udp: true
     
 
