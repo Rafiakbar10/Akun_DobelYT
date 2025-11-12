@@ -64,7 +64,7 @@ proxies:
       headers:
         Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
-  - name: WIJAYA WC 2
+  - name: WIJAYA WC av 1
     server: ava.game.naver.com
     port: 443
     type: trojan
@@ -77,7 +77,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.id-wijaya001.beritanect.click
     udp: true
-  - name: WIJAYA WC 2
+  - name: WIJAYA serv av 2
     server: ava.game.naver.com
     port: 443
     type: trojan
@@ -90,7 +90,7 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
-  - name: WIJAYA WC 2
+  - name: WIJAYA sni av 3
     server: id-wijaya001.beritanect.click
     port: 443
     type: trojan
