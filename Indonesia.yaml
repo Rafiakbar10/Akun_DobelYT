@@ -1,84 +1,6 @@
 proxies:
-  - name: WIJAYA WC 1
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: support.zoom.us.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-wijaya001.beritanect.click
-    udp: true
-  - name: "IKD WC"
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: true
-  - name: WIJAYA WC 2
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: support.zoom.us.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-wijaya001.beritanect.click
-    udp: true
-  - name: WIJAYA WC 1
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: support.zoom.us.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-wijaya001.beritanect.click
-    udp: true
-  - name: "IKD WC"
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: true
-  - name: WIJAYA WC av 1
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: ava.game.naver.com.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: ava.game.naver.com.id-wijaya001.beritanect.click
-    udp: true
-  - name: WIJAYA serv av 2
-    server: ava.game.naver.com
+  - name: WIJAYA Udmy 1
+    server: www.udemy.com
     port: 443
     type: trojan
     password: Rafiakbar10
@@ -90,17 +12,18 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
-  - name: WIJAYA sni av 3
-    server: id-wijaya001.beritanect.click
+  - name: "IKD WC"
+    server: www.udemy.com
     port: 443
     type: trojan
-    password: Rafiakbar10
+    password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: ava.game.naver.com
+    sni: idtr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /trojan
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: idtr.jagoanvip.xyz
     udp: true
+
     
