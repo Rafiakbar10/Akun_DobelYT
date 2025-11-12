@@ -1,5 +1,5 @@
 proxies:
-  - name: SERVER WC 1
+  - name: SERVER WC
     server: support.zoom.us
     port: 443
     type: vmess
@@ -15,8 +15,8 @@ proxies:
       headers:
         Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: SERVER WC 2
-    server: support.zoom.us
+  - name: SERVER IP
+    server: 104.17.3.81
     port: 443
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
@@ -24,15 +24,31 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
+    servername: sg-gsl002.arenato.rest
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
+        Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SERVER WC 3
-    server: support.zoom.us
+  - name: SERVER NTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: sg-gsl002.arenato.rest
+    udp: true
+  - name: SERVER Grpc
+    server: 104.17.3.81
     port: 443
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
@@ -40,29 +56,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
+    servername: sg-gsl002.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
-  - name: SERVER WC 4
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-
 
 
