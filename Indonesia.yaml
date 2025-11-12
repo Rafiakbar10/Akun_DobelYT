@@ -38,75 +38,43 @@ proxies:
       headers:
         Host: support.zoom.us.id-wijaya001.beritanect.click
     udp: true
-  - name: "IKD PLAY"
-    server: idtr.jagoanvip.xyz
+  - name: WIJAYA WC 1
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: support.zoom.us.id-wijaya001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: support.zoom.us.id-wijaya001.beritanect.click
+    udp: true
+  - name: "IKD WC"
+    server: support.zoom.us
     port: 443
     type: trojan
     password: vvip-Rafiakbar22
     skip-cert-verify: true
-    sni: vplay.iflix.com
+    sni: support.zoom.us.idtr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: idtr.jagoanvip.xyz
+        Host: support.zoom.us.idtr.jagoanvip.xyz
     udp: true
-  - name: WIJAYA PLAY 1
-    server: id-wijaya001.gosni.web.id
+  - name: WIJAYA WC 2
+    server: support.zoom.us
     port: 443
     type: trojan
     password: Rafiakbar10
     skip-cert-verify: true
-    sni: vplay.iflix.com
+    sni: support.zoom.us.id-wijaya001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: id-wijaya001.gosni.web.id
+        Host: support.zoom.us.id-wijaya001.beritanect.click
     udp: true
-  - name: "IKD GRPC PLAY"
-    server: idtr.jagoanvip.xyz
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: WIJAYA PLAY 2
-    server: id-wijaya001.gosni.web.id
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: id-wijaya001.gosni.web.id
-    udp: true
-  - name: WIJAYA GRPC PLAY 1
-    server: id-wijaya001.gosni.web.id
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
-  - name: WIJAYA GRPC PLAY 2
-    server: id-wijaya001.gosni.web.id
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: vplay.iflix.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
+    
