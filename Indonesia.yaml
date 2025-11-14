@@ -25,5 +25,34 @@ proxies:
       headers:
         Host: idtr.jagoanvip.xyz
     udp: true
-
+  - name: SERVER udmy 1
+    server: www.udemy.com
+    port: 443
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: sg-gsl002.arenato.rest
+    udp: true
+  - name: SERVER Grpc
+    server: www.udemy.com
+    port: 443
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-gsl002.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true
     
