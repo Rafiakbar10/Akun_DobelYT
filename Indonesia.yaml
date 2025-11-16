@@ -13,7 +13,7 @@ proxies:
         Host: id-wijaya001.beritanect.click
     udp: true
   - name: WIJAYA may
-    server: udemy.com
+    server: www.udemy.com
     port: 443
     type: trojan
     password: Rafiakbar10
@@ -39,7 +39,7 @@ proxies:
         Host: idtr.jagoanvip.xyz
     udp: true
   - name: "IKD my"
-    server: udemy.com
+    server: www.udemy.com
     port: 443
     type: trojan
     password: vvip-Rafiakbar22
@@ -68,7 +68,7 @@ proxies:
         Host: sg-gsl002.arenato.rest
     udp: true
   - name: SERVER my
-    server: udemy.com
+    server: www.udemy.com
     port: 443
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
