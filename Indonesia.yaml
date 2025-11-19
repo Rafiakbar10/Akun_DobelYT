@@ -25,28 +25,28 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
-  - name: Herza Wc
-    server: support.udemy.com
+  - name: Herza Ws
+    server: www.udemy.com
     port: 443
     type: trojan
     password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
     tls: true
     skip-cert-verify: true
-    servername: support.udemy.com.id-herza.kedaissh.space
+    servername: id-herza.kedaissh.space
     network: ws
     udp: true
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: support.udemy.com.id-herza.kedaissh.space
+        Host: id-herza.kedaissh.space
   - name: Herza GRPC 
-    server: support.udemy.com
+    server: www.udemy.com
     port: 443
     type: trojan
     password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
     tls: true
     skip-cert-verify: true
-    servername: support.udemy.com.id-herza.kedaissh.space
+    servername: id-herza.kedaissh.space
     network: grpc
     udp: true
   - name: SERVER udmy 1
