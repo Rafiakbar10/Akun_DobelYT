@@ -25,31 +25,29 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
-  - name: "IKD WC"
-    server: www.udemy.com
+  - name: Herza Wc
+    server: support.udemy.com
     port: 443
     type: trojan
-    password: vvip-Rafiakbar22
+    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
+    tls: true
     skip-cert-verify: true
-    sni: idtr.jagoanvip.xyz
+    servername: support.udemy.com.id-herza.kedaissh.space
     network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: idtr.jagoanvip.xyz
     udp: true
-  - name: "IKD my"
-    server: www.udemy.com
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: support.udemy.com.id-herza.kedaissh.space
+  - name: Herza GRPC 
+    server: support.udemy.com
     port: 443
     type: trojan
-    password: vvip-Rafiakbar22
+    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
+    tls: true
     skip-cert-verify: true
-    sni: idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: idtr.jagoanvip.xyz
+    servername: support.udemy.com.id-herza.kedaissh.space
+    network: grpc
     udp: true
   - name: SERVER udmy 1
     server: www.udemy.com
