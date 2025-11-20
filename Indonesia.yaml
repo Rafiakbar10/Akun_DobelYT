@@ -95,5 +95,43 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-
+  - name: HERZA cod
+    server: 3kingdomsextreme.customlinks.appsflyer.com
+    port: 443
+    type: trojan
+    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
+    skip-cert-verify: true
+    sni: id-herza.kedaissh.space
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id-herza.kedaissh.space
+    udp: true
+  - name: HERZA sni 1
+    server: id-herza.kedaissh.space
+    port: 443
+    type: trojan
+    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
+    skip-cert-verify: true
+    sni: west-tdm.codmwest.com
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id-herza.kedaissh.space
+    udp: true
+  - name: HERZA sni 2
+    server: id-herza.kedaissh.space
+    port: 443
+    type: trojan
+    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
+    skip-cert-verify: true
+    sni: api.activision.com
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id-herza.kedaissh.space
+    udp: true
     
