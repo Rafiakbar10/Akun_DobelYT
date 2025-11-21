@@ -13,7 +13,7 @@ proxies:
         Host: id-wijaya001.beritanect.click
     udp: true
   - name: WIJAYA may
-    server: www.udemy.com
+    server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
     type: trojan
     password: Rafiakbar10
@@ -50,7 +50,7 @@ proxies:
       grpc-service-name: trojan-grpc
     udp: true
   - name: SERVER udmy 1
-    server: www.udemy.com
+    server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
@@ -65,8 +65,8 @@ proxies:
       headers:
         Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SERVER my
-    server: www.udemy.com
+  - name: SERVER codm 2
+    server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
@@ -81,8 +81,8 @@ proxies:
       headers:
         Host: sg-gsl002.arenato.rest
     udp: true
-  - name: SERVER Grpc
-    server: www.udemy.com
+  - name: SERVER Grpc codm
+    server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
@@ -108,30 +108,5 @@ proxies:
       headers:
         Host: id-herza.kedaissh.space
     udp: true
-  - name: HERZA sni 1
-    server: id-herza.kedaissh.space
-    port: 443
-    type: trojan
-    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
-    skip-cert-verify: true
-    sni: west-tdm.codmwest.com
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: id-herza.kedaissh.space
-    udp: true
-  - name: HERZA sni 2
-    server: id-herza.kedaissh.space
-    port: 443
-    type: trojan
-    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
-    skip-cert-verify: true
-    sni: api.activision.com
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: id-herza.kedaissh.space
-    udp: true
+
     
