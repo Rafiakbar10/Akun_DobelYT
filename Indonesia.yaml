@@ -1,6 +1,6 @@
 proxies:
   - name: WIJAYA Udmy 1
-    server: www.udemy.com
+    server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
     type: trojan
     password: Rafiakbar10
@@ -26,7 +26,7 @@ proxies:
         Host: id-wijaya001.beritanect.click
     udp: true
   - name: HERZA WS
-    server: www.udemy.com
+    server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
     type: trojan
     password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
@@ -39,7 +39,7 @@ proxies:
         Host: id-herza.kedaissh.space
     udp: true
   - name: HERA GRPC 
-    server: www.udemy.com
+    server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
     type: trojan
     password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
