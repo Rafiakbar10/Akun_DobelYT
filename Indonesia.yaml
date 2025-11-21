@@ -25,30 +25,6 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
-  - name: HERZA WS
-    server: 3kingdomsextreme.customlinks.appsflyer.com
-    port: 443
-    type: trojan
-    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
-    skip-cert-verify: true
-    sni: id-herza.kedaissh.space
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: id-herza.kedaissh.space
-    udp: true
-  - name: HERA GRPC 
-    server: 3kingdomsextreme.customlinks.appsflyer.com
-    port: 443
-    type: trojan
-    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
-    skip-cert-verify: true
-    sni: id-herza.kedaissh.space
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
   - name: SERVER udmy 1
     server: 3kingdomsextreme.customlinks.appsflyer.com
     port: 443
@@ -95,18 +71,6 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-  - name: HERZA cod
-    server: 3kingdomsextreme.customlinks.appsflyer.com
-    port: 443
-    type: trojan
-    password: 7d688e0f-8bcf-433f-bd5e-41aa1f541a1e
-    skip-cert-verify: true
-    sni: id-herza.kedaissh.space
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: id-herza.kedaissh.space
-    udp: true
+
 
     
