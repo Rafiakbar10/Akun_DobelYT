@@ -25,8 +25,8 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
-  - name: TROJAN ws ip 3 
-    server: v.whatsapp.com
+  - name: TROJAN ws zm 
+    server: z-m-gateway.facebook.com
     port: 443
     type: trojan
     password: Rafiakbar10
@@ -38,8 +38,8 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
-  - name: TROJAN ws ip 4
-    server: v.whatsapp.com
+  - name: TROJAN zm
+    server: z-m-gateway.facebook.com
     port: 443
     type: trojan
     password: Rafiakbar10
