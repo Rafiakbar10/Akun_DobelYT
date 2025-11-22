@@ -1,32 +1,32 @@
 proxies:
-  - name: WIJAYA Udmy 1
-    server: 3kingdomsextreme.customlinks.appsflyer.com
+  - name: TROJAN 1
+    server: ava.game.naver.com
     port: 443
     type: trojan
     password: Rafiakbar10
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    sni: ava.game.naver.com.id-wijaya001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: ava.game.naver.com.id-wijaya001.beritanect.click
     udp: true
-  - name: WIJAYA may
-    server: 3kingdomsextreme.customlinks.appsflyer.com
+  - name: TROJAN 2
+    server: ava.game.naver.com
     port: 443
     type: trojan
     password: Rafiakbar10
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    sni: ava.game.naver.com.id-wijaya001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: ava.game.naver.com.id-wijaya001.beritanect.click
     udp: true
-  - name: SERVER udmy 1
-    server: 3kingdomsextreme.customlinks.appsflyer.com
+  - name: VMES
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
@@ -34,12 +34,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
+    servername: ava.game.naver.com.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: sg-gsl002.arenato.rest
+        Host: ava.game.naver.com.sg-gsl002.arenato.rest
     udp: true
   - name: SERVER codm 2
     server: 3kingdomsextreme.customlinks.appsflyer.com
