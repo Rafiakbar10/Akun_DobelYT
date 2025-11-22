@@ -1,76 +1,53 @@
 proxies:
-  - name: TROJAN 1
-    server: ava.game.naver.com
+  - name: TROJAN sni hos
+    server: id-wijaya001.beritanect.click
     port: 443
     type: trojan
     password: Rafiakbar10
     skip-cert-verify: true
-    sni: ava.game.naver.com.id-wijaya001.beritanect.click
+    sni: media.fcgk35-1.fna.whatsapp.com
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: ava.game.naver.com.id-wijaya001.beritanect.click
+        Host: media.fcgk35-1.fna.whatsapp.com
     udp: true
-  - name: TROJAN 2
-    server: ava.game.naver.com
+  - name: TROJAN 
+    server: media.fcgk35-1.fna.whatsapp.com
     port: 443
     type: trojan
     password: Rafiakbar10
     skip-cert-verify: true
-    sni: ava.game.naver.com.id-wijaya001.beritanect.click
+    sni: id-wijaya001.beritanect.click
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: ava.game.naver.com.id-wijaya001.beritanect.click
+        Host: id-wijaya001.beritanect.click
     udp: true
-  - name: VMES
-    server: ava.game.naver.com
+  - name: TROJAN gos
+    server: id-wijaya001.gosni.web.id
     port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar10
     skip-cert-verify: true
-    servername: ava.game.naver.com.sg-gsl002.arenato.rest
+    sni: media.fcgk35-1.fna.whatsapp.com
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan-go
       headers:
-        Host: ava.game.naver.com.sg-gsl002.arenato.rest
+        Host: media.fcgk35-1.fna.whatsapp.com
     udp: true
-  - name: SERVER codm 2
-    server: 3kingdomsextreme.customlinks.appsflyer.com
+  - name: TROJAN gosni 2
+    server: media.fcgk35-1.fna.whatsapp.com
     port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar10
     skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
+    sni: id-wijaya001.gosni.web.id
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan-go
       headers:
-        Host: sg-gsl002.arenato.rest
+        Host: id-wijaya001.gosni.web.id
     udp: true
-  - name: SERVER Grpc codm
-    server: 3kingdomsextreme.customlinks.appsflyer.com
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-gsl002.gosni.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-grpc
-    udp: true
-
-
-    
