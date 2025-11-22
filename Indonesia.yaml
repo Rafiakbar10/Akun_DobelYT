@@ -38,3 +38,53 @@ proxies:
       headers:
         Host: media.fcgk35-1.fna.whatsapp.com
     udp: true
+  - name: VMES WS
+    server: sg-gsl002.gosni.web.id
+    port: 443
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: media.fcgk35-1.fna.whatsapp.com
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: media.fcgk35-1.fna.whatsapp.com
+    udp: true
+  - name: VMEWS  NTLS
+    server: sg-gsl002.gosni.web.id
+    port: 80
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: media.fcgk35-1.fna.whatsapp.com
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: media.fcgk35-1.fna.whatsapp.com
+  - name: GRPC
+    server: sg-gsl002.gosni.web.id
+    port: 443
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: media.fcgk35-1.fna.whatsapp.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true
+
+
+
+
+
