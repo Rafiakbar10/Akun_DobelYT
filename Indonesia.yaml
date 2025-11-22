@@ -1,93 +1,65 @@
 proxies:
-  - name: TROJAN ws ip
-    server: id-wijaya001.beritanect.click
+  - name: vmes.p
+    server: support.zoom.us
     port: 443
-    type: trojan
-    password: Rafiakbar10
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    servername: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /xrayvmess
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: TROJAN ws ip 2
-    server: id-wijaya001.beritanect.click
+  - name: vmes.o
+    server: support.zoom.us
     port: 443
-    type: trojan
-    password: Rafiakbar10
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    servername: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /xrayvmess
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: TROJAN ws zm 
-    server: id-wijaya001.beritanect.click
+  - name: vmes.k
+    server: support.zoom.us
     port: 443
-    type: trojan
-    password: Rafiakbar10
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    servername: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /xrayvmess
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: TROJAN zm
-    server: id-wijaya001.beritanect.click
+  - name: vmes.4
+    server: support.zoom.us
     port: 443
-    type: trojan
-    password: Rafiakbar10
+    type: vmess
+    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    servername: support.zoom.us.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /xrayvmess
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: support.zoom.us.sg-gsl002.arenato.rest
     udp: true
-  - name: "wa 1"
-    server: v.whatsapp.com
-    port: 443
-    type: trojan
-    password: trial-Rafiakbar234
-    skip-cert-verify: true
-    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
-    udp: true
-  - name: "wa 2"
-    server: v.whatsapp.com
-    port: 443
-    type: trojan
-    password: trial-Rafiakbar234
-    skip-cert-verify: true
-    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
-    udp: true
-  - name: "wa 3"
-    server: v.whatsapp.com
-    port: 443
-    type: trojan
-    password: trial-Rafiakbar234
-    skip-cert-verify: true
-    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
-    udp: true
-    
