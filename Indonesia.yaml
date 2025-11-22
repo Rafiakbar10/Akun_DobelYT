@@ -1,17 +1,4 @@
 proxies:
-  - name: TROJAN gos 1
-    server: id-wijaya001.gosni.web.id
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: media.fcgk35-1.fna.whatsapp.com
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: media.fcgk35-1.fna.whatsapp.com
-    udp: true
   - name: TROJAN gos web
     server: id-wijaya001.gosni.web.id
     port: 443
@@ -25,19 +12,46 @@ proxies:
       headers:
         Host: web.web.whatsapp.com
     udp: true
-  - name: TROJAN ws ip
-    server: 104.18.1.196
+  - name: TROJAN gos web 2 
+    server: id-wijaya001.gosni.web.id
     port: 443
     type: trojan
     password: Rafiakbar10
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    sni: web.web.whatsapp.com
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: web.web.whatsapp.com
     udp: true
+  - name: TROJAN gos web 3
+    server: id-wijaya001.gosni.web.id
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: web.web.whatsapp.com
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: web.web.whatsapp.com
+    udp: true
+  - name: TROJAN gos web 4
+    server: id-wijaya001.gosni.web.id
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: web.web.whatsapp.com
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: web.web.whatsapp.com
+    udp: true
+
 
 
 
