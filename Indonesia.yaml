@@ -51,4 +51,43 @@ proxies:
       headers:
         Host: id-wijaya001.beritanect.click
     udp: true
+  - name: "wa 1"
+    server: v.whatsapp.com
+    port: 443
+    type: trojan
+    password: trial-Rafiakbar234
+    skip-cert-verify: true
+    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
+    udp: true
+  - name: "wa 2"
+    server: v.whatsapp.com
+    port: 443
+    type: trojan
+    password: trial-Rafiakbar234
+    skip-cert-verify: true
+    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
+    udp: true
+  - name: "wa 3"
+    server: v.whatsapp.com
+    port: 443
+    type: trojan
+    password: trial-Rafiakbar234
+    skip-cert-verify: true
+    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
+    udp: true
     
