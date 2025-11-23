@@ -1,6 +1,6 @@
 proxies:
   - name: Rafiakbar10trojan-go
-    server: http://104.18.1.196
+    server: 104.18.1.196
     port: 443
     type: trojan
     password: Rafiakbar10
@@ -13,7 +13,7 @@ proxies:
         Host: id-wijaya001.beritanect.click
     udp: true
   - name: wa o-go
-    server: http://104.18.1.196
+    server: 104.18.1.196
     port: 443
     type: trojan
     password: Rafiakbar10
@@ -26,7 +26,7 @@ proxies:
         Host: id-wijaya001.beritanect.click
     udp: true
   - name: wa w-go
-    server: http://104.18.1.196
+    server: 104.18.1.196
     port: 443
     type: trojan
     password: Rafiakbar10
