@@ -1,27 +1,40 @@
 proxies:
-  - name: "trojan-id2tr.jagoanvip.xyz:443"
-    server: v.whatsapp.com
+  - name: Rafiakbar10trojan-go
+    server: http://104.18.1.196
     port: 443
     type: trojan
-    password: trial-Rafiakbar10
+    password: Rafiakbar10
     skip-cert-verify: true
-    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
+    sni: id-wijaya001.beritanect.click
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
+        Host: id-wijaya001.beritanect.click
     udp: true
-  - name: "wa"
-    server: v.whatsapp.com
+  - name: wa o-go
+    server: http://104.18.1.196
     port: 443
     type: trojan
-    password: trial-Rafiakbar10
+    password: Rafiakbar10
     skip-cert-verify: true
-    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
+    sni: id-wijaya001.beritanect.click
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
+        Host: id-wijaya001.beritanect.click
+    udp: true
+  - name: wa w-go
+    server: http://104.18.1.196
+    port: 443
+    type: trojan
+    password: Rafiakbar10
+    skip-cert-verify: true
+    sni: id-wijaya001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-wijaya001.beritanect.click
     udp: true
