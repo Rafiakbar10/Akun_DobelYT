@@ -1,65 +1,27 @@
 proxies:
-  - name: vmes.p
-    server: support.zoom.us
+  - name: "trojan-id2tr.jagoanvip.xyz:443"
+    server: v.whatsapp.com
     port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: trial-Rafiakbar10
     skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
+    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan
       headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
+        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
     udp: true
-  - name: vmes.o
-    server: support.zoom.us
+  - name: "wa"
+    server: v.whatsapp.com
     port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: trial-Rafiakbar10
     skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
+    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan
       headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-  - name: vmes.k
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
-    udp: true
-  - name: vmes.4
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
+        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
     udp: true
