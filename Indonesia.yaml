@@ -1,17 +1,4 @@
 proxies:
-  - name: TROJAN WA 
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: id-wijaya001.beritanect.click
-    udp: true
   - name: TROJAN SF
     server: cf.shopee.co.id.sea-sw.swiftserve.com
     port: 443
@@ -24,22 +11,6 @@ proxies:
       path: /trojan-go
       headers:
         Host: cf.shopee.co.id.sea-sw.swiftserve.com.id-wijaya001.beritanect.click
-    udp: true
-  - name: VMES WA
-    server: 104.18.1.196
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: sg-gsl002.arenato.rest
     udp: true
   - name: VMES SF
     server: cf.shopee.co.id.sea-sw.swiftserve.com
@@ -58,7 +29,7 @@ proxies:
         Host: cf.shopee.co.id.sea-sw.swiftserve.com.sg-gsl002.arenato.rest
     udp: true
   - name: VMES NTLS WA 
-    server: 104.18.1.196
+    server: cf.shopee.co.id.sea-sw.swiftserve.com
     port: 80
     type: vmess
     uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
@@ -66,10 +37,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
+    servername: cf.shopee.co.id.sea-sw.swiftserve.com.sg-gsl002.arenato.rest
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: sg-gsl002.arenato.rest
+        Host: cf.shopee.co.id.sea-sw.swiftserve.com.sg-gsl002.arenato.rest
     udp: true
