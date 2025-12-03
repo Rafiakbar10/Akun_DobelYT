@@ -23,7 +23,7 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: BIZNET WA 2
+  - name: NUSA WA 2
     server: 104.18.1.196
     port: 443
     type: trojan
