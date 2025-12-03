@@ -1,30 +1,49 @@
 proxies:
-  - name: TROJAN WA
+  - name: BIZNET WA 1
     server: 104.18.1.196
     port: 443
     type: trojan
-    password: Rafiakbar10
+    password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    sni: id4tr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /trojan
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: id4tr.jagoanvip.xyz
     udp: true
-  - name: VMES WA
+  - name: GRPC WA 1
     server: 104.18.1.196
     port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: vvip-Rafiakbar10
     skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
+    sni: id4tr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
+  - name: BIZNET WA 2
+    server: 104.18.1.196
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: id4tr.jagoanvip.xyz
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan
       headers:
-        Host: sg-gsl002.arenato.rest
+        Host: id4tr.jagoanvip.xyz
+    udp: true
+  - name: GRPC WA 2
+    server: 104.18.1.196
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: id4tr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
     udp: true
