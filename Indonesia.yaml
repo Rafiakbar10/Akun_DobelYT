@@ -47,20 +47,5 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: VMES WA
-    server: 104.18.1.196
-    port: 443
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: sg-gsl002.arenato.rest
-    udp: true
+
     
