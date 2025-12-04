@@ -23,29 +23,22 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: NUSA WA 2
+  - name: SG
     server: 104.18.1.196
     port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
+    type: vmess
+    uuid: f004c2e1-a388-4cdd-9d73-85b5fef27f03
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
+    servername: vip-19.indoxray.top
     network: ws
     ws-opts:
-      path: /trojan
+      path: /websocket-vmess
       headers:
-        Host: id2tr.jagoanvip.xyz
+        Host: vip-19.indoxray.top
     udp: true
-  - name: GRPC WA 2
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
+
 
     
