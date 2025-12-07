@@ -23,6 +23,22 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
+  - name: SG
+    server: 104.18.1.196
+    port: 443
+    type: vmess
+    uuid: 3a3c0aa7-f025-401e-8da3-ef74cc03d59e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vip-9.indoxray.top
+    network: ws
+    ws-opts:
+      path: /websocket-vmess
+      headers:
+        Host: vip-9.indoxray.top
+    udp: true
 
 
 
