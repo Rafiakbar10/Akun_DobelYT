@@ -12,17 +12,6 @@ proxies:
       headers:
         Host: id2tr.jagoanvip.xyz
     udp: true
-  - name: GRPC WA 1
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
   - name: SG
     server: 104.18.1.196
     port: 443
@@ -39,7 +28,31 @@ proxies:
       headers:
         Host: vip-9.indoxray.top
     udp: true
-
+  - name: ID GRPC
+    server: 104.18.1.196
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: id2tr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
+  - name: SG GRPC
+    server: 104.18.1.196
+    port: 443
+    type: vmess
+    uuid: 3a3c0aa7-f025-401e-8da3-ef74cc03d59e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vip-9.indoxray.top
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc-vmess
+    udp: true
 
 
     
