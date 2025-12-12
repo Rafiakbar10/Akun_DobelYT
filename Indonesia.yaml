@@ -12,18 +12,18 @@ proxies:
       headers:
         Host: id2tr.jagoanvip.xyz
     udp: true
-  - name: NUSA WA 5
-    server: academy.noice.id
+  - name: NUSA 5
+    server: v.whatsapp.com
     port: 443
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
+    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id2tr.jagoanvip.xyz
+        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
     udp: true
   - name: NUSA WA 3
     server: id2tr.jagoanvip.xyz
