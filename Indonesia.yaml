@@ -12,18 +12,18 @@ proxies:
       headers:
         Host: id2tr.jagoanvip.xyz
     udp: true
-  - name: NUSA 5
-    server: v.whatsapp.com
+  - name: NUSA sf
+    server: cf.shopee.co.id
     port: 443
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: v.whatsapp.com.id2tr.jagoanvip.xyz
+    sni: cf.shopee.co.id.id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: v.whatsapp.com.id2tr.jagoanvip.xyz
+        Host: cf.shopee.co.id.id2tr.jagoanvip.xyz
     udp: true
   - name: NUSA WA 3
     server: id2tr.jagoanvip.xyz
