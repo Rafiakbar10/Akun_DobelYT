@@ -5,12 +5,12 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: id4tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id4tr.jagoanvip.xyz
+        Host: id2tr.jagoanvip.xyz
     udp: true
   - name: NUSA 2
     server: 104.18.1.196
@@ -18,12 +18,12 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: id4tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id4tr.jagoanvip.xyz
+        Host: id2tr.jagoanvip.xyz
     udp: true
   - name: NUSA 3
     server: 104.18.1.196
@@ -31,12 +31,12 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: id4tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id4tr.jagoanvip.xyz
+        Host: id2tr.jagoanvip.xyz
     udp: true
   - name: SG 1
     server: 104.18.1.196
@@ -92,7 +92,7 @@ proxies:
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: id4tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
