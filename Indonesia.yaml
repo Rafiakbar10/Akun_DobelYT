@@ -38,7 +38,7 @@ proxies:
       headers:
         Host: id2tr.jagoanvip.xyz
     udp: true
-  - name: NUSA sf 2
+  - name: NUSA sf 1
     server: 104.18.56.56
     port: 443
     type: trojan
