@@ -90,5 +90,33 @@ proxies:
     grpc-opts:
       grpc-service-name: grpc-vless
     udp: true
-
+  - name: VMES spot
+    server: investors.spotify.com
+    port: 443
+    type: vmess
+    uuid: fff1f700-5380-541d-a62b-7c03241f7ab1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: investors.spotify.com.sg-gsl002.arenato.rest
+    network: ws
+    ws-opts:
+      path: /xrayvmess
+      headers:
+        Host: investors.spotify.com.sg-gsl002.arenato.rest
+    udp: true
+  - name: TROJAN Inv
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: investors.spotify.com.id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: investors.spotify.com.id2tr.jagoanvip.xyz
+    udp: true
     
