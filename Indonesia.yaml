@@ -63,7 +63,7 @@ proxies:
       grpc-service-name: trojangrpc
     udp: true
   - name: VLESS
-    server: 104.18.1.196
+    server: 104.17.2.81
     port: 443
     type: vless
     uuid: 162b50cf-3e25-40fa-bed3-6db5ff26af4d
@@ -78,7 +78,7 @@ proxies:
         Host: vip-2.indoxray.top
     udp: true
   - name: VLESS GRPC
-    server: 104.18.1.196
+    server: 104.17.2.81
     port: 443
     type: vless
     uuid: 162b50cf-3e25-40fa-bed3-6db5ff26af4d
