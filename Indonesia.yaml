@@ -1,112 +1,5 @@
 proxies:
-  - name: NUSA 1
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id2tr.jagoanvip.xyz
-    udp: true
-  - name: NUSA 2
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id2tr.jagoanvip.xyz
-    udp: true
-  - name: NUSA ava 2
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: ava.game.naver.com.id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: ava.game.naver.com.id2tr.jagoanvip.xyz
-    udp: true
-  - name: NUSA ava
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: ava.game.naver.com.id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: ava.game.naver.com.id2tr.jagoanvip.xyz
-    udp: true
-  - name: ID GRPC
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: VLESS
-    server: 104.17.2.81
-    port: 443
-    type: vless
-    uuid: 162b50cf-3e25-40fa-bed3-6db5ff26af4d
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vip-2.indoxray.top
-    network: ws
-    ws-opts:
-      path: /websocket-vless
-      headers:
-        Host: vip-2.indoxray.top
-    udp: true
-  - name: VLESS GRPC
-    server: 104.17.2.81
-    port: 443
-    type: vless
-    uuid: 162b50cf-3e25-40fa-bed3-6db5ff26af4d
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vip-2.indoxray.top
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc-vless
-    udp: true
-  - name: VMES spot
-    server: investors.spotify.com
-    port: 443
-    type: vmess
-    uuid: fff1f700-5380-541d-a62b-7c03241f7ab1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: investors.spotify.com.sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: investors.spotify.com.sg-gsl002.arenato.rest
-    udp: true
-  - name: TROJAN Inv
+  - name: Spoti
     server: investors.spotify.com
     port: 443
     type: trojan
@@ -119,4 +12,39 @@ proxies:
       headers:
         Host: investors.spotify.com.id2tr.jagoanvip.xyz
     udp: true
-    
+  - name: NUSA edu
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id2tr.jagoanvip.xyz
+    udp: true
+  - name: ID GRPC edu
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: id2tr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
+  - name: ID GRPC spoty
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: investors.spotify.com.id2tr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
+
