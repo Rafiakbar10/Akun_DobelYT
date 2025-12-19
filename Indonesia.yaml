@@ -47,4 +47,33 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-
+  - name: VLESS spo
+    server: investors.spotify.com
+    port: 443
+    type: vless
+    uuid: 162b50cf-3e25-40fa-bed3-6db5ff26af4d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: investors.spotify.com.vip-2.indoxray.top
+    network: ws
+    ws-opts:
+      path: /websocket-vless
+      headers:
+        Host: investors.spotify.com.vip-2.indoxray.top
+    udp: true
+  - name: VLESS edu
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 162b50cf-3e25-40fa-bed3-6db5ff26af4d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vip-2.indoxray.top
+    network: ws
+    ws-opts:
+      path: /websocket-vless
+      headers:
+        Host: vip-2.indoxray.top
+    udp: true
