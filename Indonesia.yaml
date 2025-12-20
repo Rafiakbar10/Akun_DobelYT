@@ -71,3 +71,16 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
+  - name: NUSA if
+    server: id2tr.jagoanvip.xyz
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: live.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: live.iflix.com
+    udp: true
