@@ -77,3 +77,32 @@ proxies:
       headers:
         Host: vip-2.indoxray.top
     udp: true
+  - name: NUSA wa
+    server: 104.18.1.196
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: id2tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id2tr.jagoanvip.xyz
+    udp: true
+  - name: VLESS wa
+    server: 104.18.1.196
+    port: 443
+    type: vless
+    uuid: 162b50cf-3e25-40fa-bed3-6db5ff26af4d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vip-2.indoxray.top
+    network: ws
+    ws-opts:
+      path: /websocket-vless
+      headers:
+        Host: vip-2.indoxray.top
+    udp: true
+    
