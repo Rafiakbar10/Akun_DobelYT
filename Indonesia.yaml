@@ -1,24 +1,24 @@
 proxies:
   - name: Spoti
-    server: investors.spotify.com
+    server: 104.18.225.52
     port: 443
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: investors.spotify.com.id2tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: investors.spotify.com.id2tr.jagoanvip.xyz
+        Host: id2tr.jagoanvip.xyz
     udp: true
   - name: ID GRPC spoty
-    server: investors.spotify.com
+    server: 104.18.225.52
     port: 443
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: investors.spotify.com.id2tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
