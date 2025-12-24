@@ -1,4 +1,16 @@
 proxies:
+  - name: Pusat media
+    type: trojan
+    server: 104.17.2.81
+    port: 443
+    password: 4094247d-bd6e-4ca2-bc26-32622305f9bc
+    network: ws
+    sni: iceberg.qzz.io
+    skip-cert-verify: false
+    ws-opts:
+      path: /103.6.207.108=8080
+      headers:
+        Host: iceberg.qzz.io
   - name: Udmy
     server: www.udemy.com
     port: 443
