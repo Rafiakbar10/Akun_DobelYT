@@ -1,76 +1,4 @@
 proxies:
-  - name: Iflix
-    type: trojan
-    server: live.iflix.com
-    port: 443
-    password: 4094247d-bd6e-4ca2-bc26-32622305f9bc
-    network: ws
-    sni: live.iflix.com.iceberg.qzz.io
-    skip-cert-verify: false
-    ws-opts:
-      path: /103.6.207.108=8080
-      headers:
-        Host: live.iflix.com.iceberg.qzz.io
-  - name: Pusat media
-    type: trojan
-    server: 104.17.2.81
-    port: 443
-    password: 4094247d-bd6e-4ca2-bc26-32622305f9bc
-    network: ws
-    sni: iceberg.qzz.io
-    skip-cert-verify: false
-    ws-opts:
-      path: /103.6.207.108=8080
-      headers:
-        Host: iceberg.qzz.io
-  - name: Udmy
-    server: www.udemy.com
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: www.udemy.com.id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: www.udemy.com.id2tr.jagoanvip.xyz
-    udp: true
-  - name: ID GRPC spoty
-    server: www.udemy.com
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: www.udemy.com.id2tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: NUSA wa
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id2tr.jagoanvip.xyz
-    udp: true
-  - name: ID GRPC wa
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
   - name: NUSA edu
     server: 104.17.2.81
     port: 443
@@ -95,29 +23,51 @@ proxies:
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: "SG - Alibaba Cloud Singapore Private Limited [VLESS-TLS]"
-    type: vless
-    server: 104.17.2.81
+  - name: NUSA poty
+    server: investors.spotify.com
     port: 443
-    uuid: 7274ad1f-6a4f-42e5-8219-9b4f2e57fb74
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: investors.spotify.com.id2tr.jagoanvip.xyz
     network: ws
-    tls: true
-    servername: blueivy.qzz.io
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: investors.spotify.com.id2tr.jagoanvip.xyz
+    udp: true
+  - name: ID GRPC poty
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: vvip-Rafiakbar10
+    skip-cert-verify: true
+    sni: investors.spotify.com.id2tr.jagoanvip.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
+    udp: true
+  - name: Iflix
+    type: trojan
+    server: live.iflix.com
+    port: 443
+    password: 4094247d-bd6e-4ca2-bc26-32622305f9bc
+    network: ws
+    sni: live.iflix.com.iceberg.qzz.io
     skip-cert-verify: false
     ws-opts:
-      path: /8.219.58.164:57373
+      path: /103.6.207.108=8080
       headers:
-        Host: blueivy.qzz.io
-  - name: oracle
-    type: vless
+        Host: live.iflix.com.iceberg.qzz.io
+  - name: Pusat media
+    type: trojan
     server: 104.17.2.81
     port: 443
-    uuid: 6be24e57-1102-4861-8375-0f24c8a9c0a3
+    password: 4094247d-bd6e-4ca2-bc26-32622305f9bc
     network: ws
-    tls: true
-    servername: gainsboro.qzz.io
+    sni: iceberg.qzz.io
     skip-cert-verify: false
     ws-opts:
-      path: /138.2.69.236=23334
+      path: /103.6.207.108=8080
       headers:
-        Host: gainsboro.qzz.io
+        Host: iceberg.qzz.io
