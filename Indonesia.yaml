@@ -24,41 +24,29 @@ proxies:
       grpc-service-name: trojangrpc
     udp: true
   - name: NUSA poty
-    server: investors.spotify.com
+    server: 104.17.2.81
     port: 443
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: investors.spotify.com.id2tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: investors.spotify.com.id2tr.jagoanvip.xyz
+        Host: id2tr.jagoanvip.xyz
     udp: true
   - name: ID GRPC poty
-    server: investors.spotify.com
+    server: 104.17.2.81
     port: 443
     type: trojan
     password: vvip-Rafiakbar10
     skip-cert-verify: true
-    sni: investors.spotify.com.id2tr.jagoanvip.xyz
+    sni: id2tr.jagoanvip.xyz
     network: grpc
     grpc-opts:
       grpc-service-name: trojangrpc
     udp: true
-  - name: Iflix
-    type: trojan
-    server: live.iflix.com
-    port: 443
-    password: 4094247d-bd6e-4ca2-bc26-32622305f9bc
-    network: ws
-    sni: live.iflix.com.iceberg.qzz.io
-    skip-cert-verify: false
-    ws-opts:
-      path: /103.6.207.108=8080
-      headers:
-        Host: live.iflix.com.iceberg.qzz.io
   - name: Pusat media
     type: trojan
     server: 104.17.2.81
