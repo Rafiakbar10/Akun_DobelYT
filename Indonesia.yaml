@@ -1,61 +1,66 @@
 proxies:
-  - name: NUSA edu
+  - name: Vpn 1
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: vvip-Rafiakbar10
+    password: Rafiakbar12
     skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
+    sni: id-awandata001.beritanect.click
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: id2tr.jagoanvip.xyz
+        Host: id-awandata001.beritanect.click
     udp: true
-  - name: ID GRPC edu
+  - name: Vpn 4
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: vvip-Rafiakbar10
+    password: Rafiakbar12
     skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
-    udp: true
-  - name: NUSA poty
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar10
-    skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
+    sni: id-awandata001.beritanect.click
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-go
       headers:
-        Host: id2tr.jagoanvip.xyz
+        Host: id-awandata001.beritanect.click
     udp: true
-  - name: ID GRPC poty
+  - name: Vpn 2
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: vvip-Rafiakbar10
+    password: Rafiakbar12
     skip-cert-verify: true
-    sni: id2tr.jagoanvip.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojangrpc
+    sni: id-awandata001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-awandata001.beritanect.click
     udp: true
-  - name: Pusat media
-    type: trojan
+  - name: Vpn 3
     server: 104.17.2.81
     port: 443
-    password: 4094247d-bd6e-4ca2-bc26-32622305f9bc
+    type: trojan
+    password: Rafiakbar12
+    skip-cert-verify: true
+    sni: id-awandata001.beritanect.click
     network: ws
-    sni: iceberg.qzz.io
-    skip-cert-verify: false
     ws-opts:
-      path: /103.6.207.108=8080
+      path: /trojan-go
       headers:
-        Host: iceberg.qzz.io
+        Host: id-awandata001.beritanect.click
+    udp: true
+  - name: Vpn wc
+    server: www.udemy.com
+    port: 443
+    type: trojan
+    password: Rafiakbar12
+    skip-cert-verify: true
+    sni: www.udemy.com.id-awandata001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: www.udemy.com.id-awandata001.beritanect.click
+    udp: true
