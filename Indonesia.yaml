@@ -90,3 +90,28 @@ proxies:
       path: /8.219.58.164=57373
       headers:
         Host: gainsboro.qzz.io
+  - name: "ID - PT Telekomunikasi Indonesia [TROJAN-TLS]"
+    type: trojan
+    server: live.iflix.com
+    port: 443
+    password: 68e48304-5407-464e-8861-a69989a62c4a
+    network: ws
+    sni: live.iflix.com.blueivy.qzz.io
+    skip-cert-verify: false
+    ws-opts:
+      path: /36.95.152.58=12137
+      headers:
+        Host: live.iflix.com.blueivy.qzz.io
+  - name: "ID - Lightnode Limited [VLESS-TLS]"
+    type: vless
+    server: live.iflix.com
+    port: 443
+    uuid: fade0664-c846-4f9a-9dec-9175ec95e8ba
+    network: ws
+    tls: true
+    servername: live.iflix.com.midnightblue.qzz.io
+    skip-cert-verify: false
+    ws-opts:
+      path: /156.244.1.250=8443
+      headers:
+        Host: live.iflix.com.midnightblue.qzz.io
