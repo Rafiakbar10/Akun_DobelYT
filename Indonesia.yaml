@@ -1,4 +1,28 @@
 proxies:
+  - name: Rafiakbar11trojan-go
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: Rafiakbar11
+    skip-cert-verify: true
+    sni: id-wijaya001.beritanect.click
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: id-wijaya001.beritanect.click
+    udp: true
+  - name: Trojan_gRPC_Rafiakbar11
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: Rafiakbar11
+    skip-cert-verify: true
+    sni: id-wijaya001.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
   - name: Oracle
     type: vless
     server: 104.17.2.81
