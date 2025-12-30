@@ -1,4 +1,32 @@
 proxies:
+  - name: "ID - Amazoncom Inc [TROJAN-TLS]"
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: c178aca4-2844-4c77-a093-922a2e653e6c
+    skip-cert-verify: true
+    sni: investors.spotify.com.antiquewhite.qzz.io
+    network: ws
+    ws-opts:
+      path: /43.218.77.16=1443
+      headers:
+        Host: investors.spotify.com.antiquewhite.qzz.io
+    udp: true
+  - name: "SG - DigitalOcean LLC [VLESS-TLS]"
+    server: investors.spotify.com
+    port: 443
+    type: vless
+    uuid: 0984957b-f7b0-4445-a951-20abae3dad29
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: investors.spotify.com.antiquewhite.qzz.io
+    network: ws
+    ws-opts:
+      path: /178.128.86.3=443
+      headers:
+        Host: investors.spotify.com.antiquewhite.qzz.io
+    udp: true
   - name: 30 Lignode
     server: live.iflix.com
     port: 443
