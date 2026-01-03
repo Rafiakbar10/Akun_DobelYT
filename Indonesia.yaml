@@ -1,98 +1,47 @@
 proxies:
-  - name: "ID - Amazoncom Inc [TROJAN-TLS]"
-    server: investors.spotify.com
+  - name: Vmes WS 1
+    server: 104.17.3.81
     port: 443
-    type: trojan
-    password: c178aca4-2844-4c77-a093-922a2e653e6c
-    skip-cert-verify: true
-    sni: investors.spotify.com.antiquewhite.qzz.io
-    network: ws
-    ws-opts:
-      path: /43.218.77.16=1443
-      headers:
-        Host: investors.spotify.com.antiquewhite.qzz.io
-    udp: true
-  - name: "SG - DigitalOcean LLC [VLESS-TLS]"
-    server: investors.spotify.com
-    port: 443
-    type: vless
-    uuid: 0984957b-f7b0-4445-a951-20abae3dad29
+    type: vmess
+    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: investors.spotify.com.antiquewhite.qzz.io
+    servername: id-awandata001.beritanect.click
     network: ws
     ws-opts:
-      path: /178.128.86.3=443
+      path: /xrayvmess
       headers:
-        Host: investors.spotify.com.antiquewhite.qzz.io
+        Host: id-awandata001.beritanect.click
     udp: true
-  - name: 30 Lignode
-    server: live.iflix.com
+  - name: Vmes WS 2
+    server: 104.17.2.81
     port: 443
-    type: trojan
-    password: 4517d3b4-b9df-44fb-85f2-807df7df14cf
-    skip-cert-verify: true
-    sni: live.iflix.com.sandybrown.qzz.io
-    network: ws
-    ws-opts:
-      path: /156.244.1.250=8443
-      headers:
-        Host: live.iflix.com.sandybrown.qzz.io
-    udp: true
-  - name: 30 Telkom
-    server: live.iflix.com
-    port: 443
-    type: trojan
-    password: 4517d3b4-b9df-44fb-85f2-807df7df14cf
-    skip-cert-verify: true
-    sni: live.iflix.com.sandybrown.qzz.io
-    network: ws
-    ws-opts:
-      path: /36.95.152.58=12137
-      headers:
-        Host: live.iflix.com.sandybrown.qzz.io
-    udp: true
-  - name: 30 melbicom
-    server: live.iflix.com
-    port: 443
-    type: trojan
-    password: 4517d3b4-b9df-44fb-85f2-807df7df14cf
-    skip-cert-verify: true
-    sni: live.iflix.com.sandybrown.qzz.io
-    network: ws
-    ws-opts:
-      path: /91.192.81.154=2053
-      headers:
-        Host: live.iflix.com.sandybrown.qzz.io
-    udp: true
-  - name: Vles 30 Melbocom
-    server: live.iflix.com
-    port: 443
-    type: vless
-    uuid: 316d7fe0-c4f7-488c-9a69-febdbf7ed274
+    type: vmess
+    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: live.iflix.com.gainsboro.qzz.io
+    servername: id-awandata001.beritanect.click
     network: ws
     ws-opts:
-      path: /91.192.81.154=2053
+      path: /xrayvmess
       headers:
-        Host: live.iflix.com.gainsboro.qzz.io
+        Host: id-awandata001.beritanect.click
     udp: true
-  - name: 30 Telkom
-    server: live.iflix.com
+  - name: GRPC
+    server: 104.17.2.81
     port: 443
-    type: vless
-    uuid: 65b27272-d59b-4a02-9178-0951518fcec3
+    type: vmess
+    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: live.iflix.com.fuchsia.qzz.io
-    network: ws
-    ws-opts:
-      path: /36.95.152.58=12137
-      headers:
-        Host: live.iflix.com.fuchsia.qzz.io
+    servername: id-awandata001.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
