@@ -45,3 +45,42 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
+  - name: vless ws
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1.keree.web.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: 1.keree.web.id
+    udp: true
+  - name: vless grpc 
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1.keree.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vless
+    udp: true
+  - name:  vless http
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1.keree.web.id
+    network: httpupgrade
+    udp: true
