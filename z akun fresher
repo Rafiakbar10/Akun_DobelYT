@@ -1,176 +1,86 @@
 proxies:
-  - name: WIJAYA WC 1
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: support.zoom.us.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-wijaya001.beritanect.click
-    udp: true
-  - name: "IKD WC"
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: true
-  - name: WIJAYA WC 2
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: support.zoom.us.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-wijaya001.beritanect.click
-    udp: true
-  - name: WIJAYA WC 1
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: support.zoom.us.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: support.zoom.us.id-wijaya001.beritanect.click
-    udp: true
-  - name: "IKD WC"
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: vvip-Rafiakbar22
-    skip-cert-verify: true
-    sni: support.zoom.us.idtr.jagoanvip.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: support.zoom.us.idtr.jagoanvip.xyz
-    udp: true
-  - name: WIJAYA WC av 1
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: ava.game.naver.com.id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: ava.game.naver.com.id-wijaya001.beritanect.click
-    udp: true
-  - name: WIJAYA serv av 2
-    server: ava.game.naver.com
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: id-wijaya001.beritanect.click
-    udp: true
-  - name: WIJAYA sni av 3
-    server: id-wijaya001.beritanect.click
-    port: 443
-    type: trojan
-    password: Rafiakbar10
-    skip-cert-verify: true
-    sni: ava.game.naver.com
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: id-wijaya001.beritanect.click
-    udp: true
-
-
-
-
-proxies:
-  - name: SERVER WC
-    server: support.zoom.us
+  - name: Vmes WS 1
+    server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.sg-gsl002.arenato.rest
+    servername: id-awandata001.beritanect.click
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: support.zoom.us.sg-gsl002.arenato.rest
+        Host: id-awandata001.beritanect.click
     udp: true
-  - name: SERVER IP
-    server: 104.17.3.81
+  - name: Vmes WS 2
+    server: 104.17.2.81
     port: 443
     type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
+    servername: id-awandata001.beritanect.click
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: sg-gsl002.arenato.rest
+        Host: id-awandata001.beritanect.click
     udp: true
-  - name: SERVER NTLS
-    server: 104.17.3.81
-    port: 80
-    type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg-gsl002.arenato.rest
-    network: ws
-    ws-opts:
-      path: /xrayvmess
-      headers:
-        Host: sg-gsl002.arenato.rest
-    udp: true
-  - name: SERVER Grpc
-    server: 104.17.3.81
+  - name: GRPC
+    server: 104.17.2.81
     port: 443
     type: vmess
-    uuid: c4524d12-e847-5ece-a5b2-8bb9dc3a55e9
+    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-gsl002.gosni.web.id
+    servername: id-awandata001.gosni.web.id
     network: grpc
     grpc-opts:
       grpc-service-name: vmess-grpc
     udp: true
-
-
-
-
+  - name: vless ws
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1.keree.web.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: 1.keree.web.id
+    udp: true
+  - name: vless grpc 
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1.keree.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vless
+    udp: true
+  - name:  vless http
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1.keree.web.id
+    network: httpupgrade
+    udp: true
