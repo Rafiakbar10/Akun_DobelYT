@@ -1,6 +1,6 @@
 proxies:
   - name: Vmes WS 1
-    server: investors.spotify.com
+    server: 104.17.3.81
     port: 443
     type: vmess
     uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: investors.spotify.com.id-awandata001.beritanect.click
+    servername: id-awandata001.beritanect.click
     network: ws
     ws-opts:
       path: /xrayvmess
       headers:
-        Host: investors.spotify.com.id-awandata001.beritanect.click
+        Host: id-awandata001.beritanect.click
     udp: true
   - name: Vmes WS 2
     server: 104.17.2.81
@@ -46,30 +46,41 @@ proxies:
       grpc-service-name: vmess-grpc
     udp: true
   - name: vless ws
-    server: investors.spotify.com
+    server: 104.17.2.81
     port: 443
     type: vless
     uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: investors.spotify.com.1.keree.web.id
+    servername: 1.keree.web.id
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: investors.spotify.com.1.keree.web.id
+        Host: 1.keree.web.id
     udp: true
   - name: vless grpc 
-    server: investors.spotify.com
+    server: 104.17.2.81
     port: 443
     type: vless
     uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: investors.spotify.com.1.keree.web.id
+    servername: 1.keree.web.id
     network: grpc
     grpc-opts:
       grpc-service-name: vless
+    udp: true
+  - name:  vless http
+    server: 104.17.2.81
+    port: 443
+    type: vless
+    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 1.keree.web.id
+    network: httpupgrade
     udp: true
