@@ -1,86 +1,49 @@
 proxies:
-  - name: Vmes WS 1
+  - name: proxy 2 ws
     server: 104.17.3.81
     port: 443
-    type: vmess
-    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar1
     skip-cert-verify: true
-    servername: id-awandata001.beritanect.click
+    sni: id-awandata001.beritanect.click
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan-go
       headers:
         Host: id-awandata001.beritanect.click
     udp: true
-  - name: Vmes WS 2
-    server: 104.17.2.81
+  - name: proxy 1 Grpc
+    server: 104.17.3.81
     port: 443
-    type: vmess
-    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar1
     skip-cert-verify: true
-    servername: id-awandata001.beritanect.click
+    sni: id-awandata001.gosni.web.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: proxy 2 ws
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: Rafiakbar1
+    skip-cert-verify: true
+    sni: id-awandata001.beritanect.click
     network: ws
     ws-opts:
-      path: /xrayvmess
+      path: /trojan-go
       headers:
         Host: id-awandata001.beritanect.click
     udp: true
-  - name: GRPC
-    server: 104.17.2.81
+  - name: proxy 2 Grpc
+    server: 104.17.3.81
     port: 443
-    type: vmess
-    uuid: 1f2079f4-a695-5d5e-bce8-eddbc99950d2
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: Rafiakbar1
     skip-cert-verify: true
-    servername: id-awandata001.gosni.web.id
+    sni: id-awandata001.gosni.web.id
     network: grpc
     grpc-opts:
-      grpc-service-name: vmess-grpc
-    udp: true
-  - name: vless ws
-    server: 104.17.2.81
-    port: 443
-    type: vless
-    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 1.keree.web.id
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: 1.keree.web.id
-    udp: true
-  - name: vless grpc 
-    server: 104.17.2.81
-    port: 443
-    type: vless
-    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 1.keree.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vless
-    udp: true
-  - name:  vless http
-    server: 104.17.2.81
-    port: 443
-    type: vless
-    uuid: 39bee6c3-3a94-454c-972a-4675c31750b2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 1.keree.web.id
-    network: httpupgrade
+      grpc-service-name: trojan-grpc
     udp: true
