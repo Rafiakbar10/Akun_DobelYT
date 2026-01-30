@@ -24,7 +24,7 @@ proxies:
       grpc-service-name: trojan-grpc
     udp: true
   - name: proxy 2 ws
-    server: 104.17.3.81
+    server: 104.17.2.81
     port: 443
     type: trojan
     password: Rafiakbar1
@@ -37,7 +37,7 @@ proxies:
         Host: id-awandata001.beritanect.click
     udp: true
   - name: proxy 2 Grpc
-    server: 104.17.3.81
+    server: 104.17.2.81
     port: 443
     type: trojan
     password: Rafiakbar1
