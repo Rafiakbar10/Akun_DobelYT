@@ -1,48 +1,24 @@
 proxies:
-  - name: proxy 1 ws
+  - name: Rafiakbar03trojan-go
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: Rafiakbar1
+    password: Rafiakbar03
     skip-cert-verify: true
-    sni: id-awandata001.beritanect.click
+    sni: id-atha001.kegiatanja.my.id
     network: ws
     ws-opts:
       path: /trojan-go
       headers:
-        Host: id-awandata001.beritanect.click
+        Host: id-atha001.kegiatanja.my.id
     udp: true
-  - name: proxy 1 Grpc
+  - name: Trojan_gRPC_Rafiakbar03
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: Rafiakbar1
+    password: Rafiakbar03
     skip-cert-verify: true
-    sni: id-awandata001.gosni.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
-  - name: proxy 2 ws
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: Rafiakbar1
-    skip-cert-verify: true
-    sni: id-awandata001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: id-awandata001.beritanect.click
-    udp: true
-  - name: proxy 2 Grpc
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: Rafiakbar1
-    skip-cert-verify: true
-    sni: id-awandata001.gosni.web.id
+    sni: id-atha001.gosni.web.id
     network: grpc
     grpc-opts:
       grpc-service-name: trojan-grpc
