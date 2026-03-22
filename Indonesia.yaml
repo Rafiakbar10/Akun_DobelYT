@@ -1,49 +1,25 @@
 proxies:
-  - name: proxy 2
+  - name: WS
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: Rafi22
+    password: e794fec1-8e5d-45b5-9c51-145add9c2ee9
     skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
+    sni: 1.keree.web.id
     network: ws
     ws-opts:
-      path: /trojan-go
+      path: /trojan
       headers:
-        Host: id-wijaya001.beritanect.click
+        Host: 1.keree.web.id
     udp: true
-  - name: proxy 1
+  - name: GRPC
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: Rafi22
+    password: e794fec1-8e5d-45b5-9c51-145add9c2ee9
     skip-cert-verify: true
-    sni: id-wijaya001.gosni.web.id
+    sni: 1.keree.web.id
     network: grpc
     grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
-  - name: yang ke 2
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: Rafi22
-    skip-cert-verify: true
-    sni: id-wijaya001.beritanect.click
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: id-wijaya001.beritanect.click
-    udp: true
-  - name: grpc ya 2
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: Rafi22
-    skip-cert-verify: true
-    sni: id-wijaya001.gosni.web.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
+      grpc-service-name: trojan
     udp: true
