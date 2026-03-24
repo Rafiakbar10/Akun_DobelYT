@@ -3,22 +3,22 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: e794fec1-8e5d-45b5-9c51-145add9c2ee9
+    password: 7b30ed44-670d-444a-a021-f01be86fab0a
     skip-cert-verify: true
-    sni: 1.keree.web.id
+    sni: id2.keong.store
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: 1.keree.web.id
+        Host: id2.keong.store
     udp: true
   - name: GRPC
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: e794fec1-8e5d-45b5-9c51-145add9c2ee9
+    password: 7b30ed44-670d-444a-a021-f01be86fab0a
     skip-cert-verify: true
-    sni: 1.keree.web.id
+    sni: id2.keong.store
     network: grpc
     grpc-opts:
       grpc-service-name: trojan
